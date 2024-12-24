@@ -1,5 +1,5 @@
-# <>group-5-hospital
-This repository contains the <> Group 5 hospital database project, developed in MySQL and MS Access. The project involves the creation and population of a hospital database for use in MySQL and MS Access
+# group-5-hospital
+This repository contains the Group 5 hospital database project, developed in MySQL and MS Access. The project involves the creation and population of a hospital database for use in MySQL and MS Access
 
 ---
 
