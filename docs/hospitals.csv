@@ -1,0 +1,39 @@
+Hospital Name,Address,Size (Beds),Type,Emergency Services,Year of Accreditation
+Royal London Hospital,"Whitechapel Rd, London E1 1BB",720,General,Yes,2015
+Manchester Royal Infirmary,"Oxford Rd, Manchester M13 9WL",750,Teaching,Yes,2016
+St. Thomas' Hospital,"Westminster Bridge Rd, London SE1 7EH",840,General,No,2014
+Birmingham City Hospital,"Dudley Rd, Birmingham B18 7QH",580,General,Yes,2013
+Addenbrooke's Hospital,"Hills Rd, Cambridge CB2 0QQ","1,000",Teaching,Yes,2017
+Great Ormond Street Hospital,"Great Ormond St, London WC1N 3JH",389,Children's,No,2016
+University Hospital Southampton,"Tremona Rd, Southampton SO16 6YD","1,100",Teaching,Yes,2018
+Royal Victoria Infirmary,"Queen Victoria Rd, Newcastle NE1 4LP",580,General,Yes,2015
+Queen Elizabeth Hospital,"Mindelsohn Way, Birmingham B15 2GW","1,200",General,Yes,2017
+Norfolk and Norwich Hospital,"Colney Ln, Norwich NR4 7UY","1,000",General,No,2014
+Leeds General Infirmary,"Great George St, Leeds LS1 3EX",850,General,Yes,2019
+Guy's Hospital,"Great Maze Pond, London SE1 9RT",400,Specialist,No,2016
+Charing Cross Hospital,"Fulham Palace Rd, London W6 8RF",511,Teaching,Yes,2017
+John Radcliffe Hospital,"Headley Way, Oxford OX3 9DU",950,Teaching,Yes,2013
+King’s College Hospital,"Denmark Hill, London SE5 9RS","1,200",Teaching,No,2015
+Hull Royal Infirmary,"Anlaby Rd, Hull HU3 2JZ",650,General,Yes,2018
+Bristol Royal Infirmary,"Upper Maudlin St, Bristol BS2 8HW",677,General,No,2016
+Western General Hospital,"Crewe Rd S, Edinburgh EH4 2XU",600,General,Yes,2019
+Ninewells Hospital,Dundee DD2 1SY,900,Teaching,Yes,2017
+Queen's Medical Centre,"Derby Rd, Nottingham NG7 2UH","1,300",Teaching,Yes,2014
+Royal Free Hospital,"Pond St, London NW3 2QG",500,General,No,2016
+Freeman Hospital,"Freeman Rd, Newcastle NE7 7DN",800,Specialist,Yes,2013
+Glasgow Royal Infirmary,"Castle St, Glasgow G4 0SF","1,000",General,Yes,2018
+Royal Sussex County Hospital,"Eastern Rd, Brighton BN2 5BE",600,General,No,2019
+St. George's Hospital,"Blackshaw Rd, London SW17 0QT","1,300",Teaching,Yes,2015
+Wythenshawe Hospital,"Southmoor Rd, Manchester M23 9LT",900,Teaching,Yes,2017
+Morriston Hospital,"Heol Maes Eglwys, Swansea SA6 6NL",750,General,No,2014
+Derriford Hospital,"Derriford Rd, Plymouth PL6 8DH","1,000",General,Yes,2016
+Royal Blackburn Hospital,"Haslingden Rd, Blackburn BB2 3HH",700,General,No,2015
+Stoke Mandeville Hospital,"Mandeville Rd, Aylesbury HP21 8AL",550,Specialist,Yes,2013
+James Cook University Hospital,"Marton Rd, Middlesbrough TS4 3BW","1,000",Teaching,Yes,2019
+Aberdeen Royal Infirmary,"Foresterhill, Aberdeen AB25 2ZN",900,General,Yes,2018
+Queen Elizabeth University Hosp,"Govan Rd, Glasgow G51 4TF","1,700",Teaching,Yes,2017
+York Hospital,"Wigginton Rd, York YO31 8HE",700,General,No,2016
+Royal Derby Hospital,"Uttoxeter Rd, Derby DE22 3NE","1,200",General,Yes,2015
+Milton Keynes University Hosp,"Standing Way, Milton Keynes MK6 5LD",500,General,Yes,2019
+Southmead Hospital,"Southmead Rd, Bristol BS10 5NB","1,000",General,Yes,2018
+Princess Royal Hospital,"Lewes Rd, Haywards Heath RH16 4EX",550,General,No,2014
