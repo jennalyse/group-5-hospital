@@ -1,4 +1,4 @@
--- Use hospitals database (run create_load_HOSPITALS.sql first)
+-- Use hospitals database
 USE hospitals_db;
 
 -- Drop PATIENTS table if it already exists
@@ -10,11 +10,9 @@ CREATE TABLE PATIENTS (
     first_name VARCHAR(100) NOT NULL,                    
     last_name VARCHAR(100) NOT NULL,                     
     date_of_birth DATE,                                  
-    address TEXT,                                       
-    hospital_id INT,                                              -- Foreign key to HOSPITALS table
-    doctor_id INT,                                                -- Foreign key to DOCTORS table
-    FOREIGN KEY (hospital_id) REFERENCES HOSPITALS(hospital_id),  -- Link to hospital_id in HOSPITALS table
-    FOREIGN KEY (doctor_id) REFERENCES DOCTORS(doctor_id)         -- Link to doctor_id in DOCTORS table
+    address TEXT,                                        
+    doctor_id INT,                                         -- Foreign key to DOCTORS table
+    FOREIGN KEY (doctor_id) REFERENCES DOCTORS(doctor_id)  -- Link to doctor_id in DOCTORS table
 );
 
 -- Verify that the PATIENTS table was created successfully
