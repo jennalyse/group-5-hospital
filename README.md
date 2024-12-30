@@ -1,5 +1,5 @@
 # group-5-hospital
-This repository contains the Group 5 hospital database project, developed in MySQL and MS Access. The project involves the creation and population of a hospital database for use in MySQL and MS Access
+This repository contains the Group 5 hospital database project, developed in MySQL and MS Access. The project involves the creation and population of a hospital database for use in MySQL and MS Access...
 
 ---
 
@@ -23,13 +23,25 @@ This repository contains the Group 5 hospital database project, developed in MyS
 
 ## Files in the Repository
 
-| **File Name**              | **Description**                                                                 |
-|----------------------------|---------------------------------------------------------------------------------|
-| `create_hospitals_db.sql`  | SQL script to create the `hospitals_db` database.                               |
-| `create_load_HOSPITALS.sql`| SQL script to create the `HOSPITALS` table and load cleaned data into it.       |
-| `update_csv.py`            | Python script to clean and prepare the original CSV data for MySQL/MS Access.   |
-| `cleaned_hospitals.csv`    | Cleaned hospital data, ready for import into MySQL/MS Access.                   |
-| `README.md`                | Documentation for the project.   
+| **File Name**                  | **Description**                                                                             |
+|--------------------------------|---------------------------------------------------------------------------------------------|
+| **`create_hospitals_db.sql`**  | SQL script to create the `hospitals_db` database.                                           |
+| **`create_load_HOSPITALS.sql`**| SQL script to create the `HOSPITALS` table and load cleaned data into it.                   |
+| **`create_APPOINTMENTS.sql`**  | SQL script to create the `APPOINTMENTS` table.                                              |
+| **`create_DISEASE.sql`**       | SQL script to create the `DISEASE` table.                                                   |
+| **`create_DOCTORS.sql`**       | SQL script to create the `DOCTORS` table.                                                   |
+| **`create_LAB_RESULTS.sql`**   | SQL script to create the `LAB_RESULTS` table.                                               |
+| **`create_MEDICATIONS.sql`**   | SQL script to create the `MEDICATIONS` table.                                               |
+| **`create_PATIENTS.sql`**      | SQL script to create the `PATIENTS` table.                                                  |
+| **`create_load_PRESCRIPTIONS.sql`** | SQL script to create the `PRESCRIPTIONS` table and load generated prescription data.   |
+| **`generate_prescriptions.py`**| Python script to generate random prescription data for the database.                        |
+| **`update_csv.py`**            | Python script to clean and prepare the original CSV data for MySQL/MS Access.               |
+| **`cleaned_hospitals.csv`**    | Cleaned hospital data, ready for import into MySQL/MS Access.                               |
+| **`hospitals.csv`**            | Original raw hospital data file.                                                            |
+| **`ERD.pdf`**                  | Entity-Relationship Diagram for the database schema.                                        |
+| **`flowcharts.pdf`**           | Flowcharts illustrating the database processes and workflows.                               |
+| **`pseudocode.md`**            | Pseudocode for implementing database functionalities.                                       |
+| **`README.md`**                | Documentation for the project.                                                              |
 ...
 
 ---
@@ -53,7 +65,14 @@ Ensure you have the following installed:
         mysql -u root -p < create_hospitals_db.sql
      run create_load_HOSPITALS.sql to create HOSPITALS table and import the data
         mysql -u root - p < create_load_HOSPITALS.sql
-   
+3. Run the following SQL scripts in order:
+     1. create_DOCTORS.sql
+     2. create_PATIENTS.sql
+     3. create_APPOINTMENTS.sql
+     4. create_LAB_RESULTS.sql
+     5. create_MEDICATIONS.sql
+     6. create_load_PRESCRIPTIONS.sql
+     7. create_MEDICATIONS.sql
 ...
 
 
@@ -73,6 +92,85 @@ The HOSPITALS table has structure:
 | `accreditation_year`   | YEAR               | Year the hospital was accredited.                     |
 | `emergency_service`    | BOOLEAN            | Indicates if the hospital provides emergency services (1 Yes, 0 No).|
 
+---
+
+#### **DOCTORS Table**
+| **Column Name**        | **Data Type**      | **Description**                                       |
+|------------------------|--------------------|-------------------------------------------------------|
+| `doctor_id`            | INT (Primary Key)  | Unique ID for each doctor.                            |
+| `first_name`           | VARCHAR(100)       | First name of the doctor.                             |
+| `second_name`          | VARCHAR(100)       | Second name (last name) of the doctor.                |
+| `date_of_birth`        | DATE               | Date of birth of the doctor.                          |
+| `address`              | TEXT               | Address of the doctor.                                |
+| `hospital_id`          | INT (Foreign Key)  | Links the doctor to their associated hospital.        |
+
+---
+
+
+#### **PATIENTS Table**
+| **Column Name**        | **Data Type**      | **Description**                                       |
+|------------------------|--------------------|-------------------------------------------------------|
+| `patient_id`           | INT (Primary Key)  | Unique ID for each patient.                           |
+| `first_name`           | VARCHAR(100)       | First name of the patient.                            |
+| `second_name`          | VARCHAR(100)       | Second name (last name) of the patient.               |
+| `date_of_birth`        | DATE               | Date of birth of the patient.                         |
+| `address`              | TEXT               | Address of the patient.                               |
+| `doctor_id`            | INT (Foreign Key)  | Links the patient to their primary doctor.            |
+
+---
+
+#### **MEDICATIONS Table**
+| **Column Name**        | **Data Type**      | **Description**                                       |
+|------------------------|--------------------|-------------------------------------------------------|
+| `med_id`               | INT (Primary Key)  | Unique ID for each medication.                        |
+| `med_name`             | VARCHAR(255)       | Name of the medication.                               |
+| `med_manufacturer`     | VARCHAR(255)       | Manufacturer of the medication.                       |
+| `med_type`             | VARCHAR(100)       | Type of medication (e.g., Tablet, Injection).         |
+
+---
+
+#### **APPOINTMENTS Table**
+| **Column Name**        | **Data Type**      | **Description**                                       |
+|------------------------|--------------------|-------------------------------------------------------|
+| `appt_id`              | INT (Primary Key)  | Unique ID for each appointment.                       |
+| `appt_date`            | DATETIME           | Date of the appointment.                              |
+| `appt_purpose`         | VARCHAR(100)       | Purpose of the appointment (e.g., Follow-up).         |
+| `patient_id`           | INT (Foreign Key)  | Links the appointment to the patient.                 |
+| `doctor_id`            | INT (Foreign Key)  | Links the appointment to the doctor.                  |
+
+---
+
+#### **PRESCRIPTIONS Table**
+| **Column Name**        | **Data Type**      | **Description**                                       |
+|------------------------|--------------------|-------------------------------------------------------|
+| `prescription_id`      | INT (Primary Key)  | Unique ID for each prescription.                      |
+| `prescription_date`    | DATE               | Date the prescription was issued.                     |
+| `patient_id`           | INT (Foreign Key)  | Links the prescription to the patient who received it.|
+| `doctor_id`            | INT (Foreign Key)  | Links the prescription to the doctor who issued it.   |
+| `med_id`               | INT (Foreign Key)  | Links the prescription to the mediciation required.   |
+
+---
+
+#### **LAB_RESULTS Table**
+| **Column Name**        | **Data Type**      | **Description**                                       |
+|------------------------|--------------------|-------------------------------------------------------|
+| `lab_results_id`       | INT (Primary Key)  | Unique ID for each lab result.                        |
+| `lab_test`             | VARCHAR(255)       | Name/type of the lab test conducted.                  |
+| `lab_date`             | DATE               | Date the lab test was conducted.                      |
+| `lab_result`           | VARCHAR(255)       | Result of the lab test.                               |
+| `doctor_id`            | INT (Foreign Key)  | Links the lab result to the doctor who ordered it.    |
+| `patient_id`           | INT (Foreign Key)  | Links the lab result to the patient.                  |
+
+---
+
+#### **DISEASE Table**
+| **Column Name**        | **Data Type**      | **Description**                                       |
+|------------------------|--------------------|-------------------------------------------------------|
+| `disease_id`           | INT (Primary Key)  | Unique ID for each disease.                           |
+| `disease_name`         | VARCHAR(255)       | Name of the disease.                                  |
+| `disease_treatment`    | TEXT               | Description of the treatment for the disease.         |
+| `doctor_id`            | INT (Foreign Key)  | Links the disease to the specialist doctor.           |
+| `med_id`               | INT (Foreign Key)  | Links the disease to its primary medication.          |
 
 ---
 
