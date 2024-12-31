@@ -19,7 +19,7 @@ CREATE TABLE PATIENTS (
 SELECT * FROM PATIENTS;
 
 -- Load data from CSV file into PATIENTS table
-LOAD DATA LOCAL INFILE '/path/to/final_patients.csv' -- Replace with path to patients.csv
+LOAD DATA LOCAL INFILE '/path/to/final_patients_corrected.csv' -- Replace with path to patients.csv
 INTO TABLE PATIENTS
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
