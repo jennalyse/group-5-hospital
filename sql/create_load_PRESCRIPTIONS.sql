@@ -24,3 +24,24 @@ SOURCE /path/to/insert_prescriptions.sql;
 
 -- Verify that data was imported successfully
 SELECT * FROM PRESCRIPTIONS LIMIT 10;
+
+-- Update each prescription with a random doctor_id
+UPDATE PRESCRIPTIONS
+SET doctor_id = (
+    SELECT doctor_id
+    FROM DOCTORS
+    ORDER BY RAND()
+    LIMIT 1
+);
+
+-- Update each prescription with a random patient_id
+UPDATE PRESCRIPTIONS
+SET patient_id = (
+    SELECT patient_id
+    FROM PATIENTS
+    ORDER BY RAND()
+    LIMIT 1
+);
+
+-- Check the updated PRESCRIPTIONS table
+SELECT * FROM PRESCRIPTIONS
