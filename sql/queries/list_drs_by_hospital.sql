@@ -8,6 +8,6 @@ USE hospitals_db;
 SELECT d.first_name, d.second_name AS last_name, d.address
 FROM DOCTORS d
 JOIN HOSPITALS h ON d.hospital_id = h.hospital_id
-WHERE h.hospital_name = 'Particular Hospital Name';
+WHERE h.hospital_name = 'Royal London Hospital';
 
 -- End of script
