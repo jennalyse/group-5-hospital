@@ -19,7 +19,7 @@ CREATE TABLE PATIENTS (
 SELECT * FROM PATIENTS;
 
 -- Load data from CSV file into PATIENTS table
-LOAD DATA LOCAL INFILE 'D:/Documents/Exeter/Semester 1/HPDM172_Computational Skills for Health and Life Sciences/Patients.csv'
+LOAD DATA LOCAL INFILE '/path/to/patients.csv' -- Replace with path to patients.csv
 INTO TABLE PATIENTS
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
