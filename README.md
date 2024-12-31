@@ -23,26 +23,35 @@ This repository contains the Group 5 hospital database project, developed in MyS
 
 ## Files in the Repository
 
-| **File Name**                  | **Description**                                                                             |
-|--------------------------------|---------------------------------------------------------------------------------------------|
-| **`create_hospitals_db.sql`**  | SQL script to create the `hospitals_db` database.                                           |
-| **`create_load_HOSPITALS.sql`**| SQL script to create the `HOSPITALS` table and load cleaned data into it.                   |
-| **`create_APPOINTMENTS.sql`**  | SQL script to create the `APPOINTMENTS` table.                                              |
-| **`create_DISEASE.sql`**       | SQL script to create the `DISEASE` table.                                                   |
-| **`create_DOCTORS.sql`**       | SQL script to create the `DOCTORS` table.                                                   |
-| **`create_LAB_RESULTS.sql`**   | SQL script to create the `LAB_RESULTS` table.                                               |
-| **`create_MEDICATIONS.sql`**   | SQL script to create the `MEDICATIONS` table.                                               |
-| **`create_PATIENTS.sql`**      | SQL script to create the `PATIENTS` table.                                                  |
-| **`create_load_PRESCRIPTIONS.sql`** | SQL script to create the `PRESCRIPTIONS` table and load generated prescription data.   |
-| **`generate_prescriptions.py`**| Python script to generate random prescription data for the database.                        |
-| **`update_csv.py`**            | Python script to clean and prepare the original CSV data for MySQL/MS Access.               |
-| **`cleaned_hospitals.csv`**    | Cleaned hospital data, ready for import into MySQL/MS Access.                               |
-| **`hospitals.csv`**            | Original raw hospital data file.                                                            |
-| **`ERD.pdf`**                  | Entity-Relationship Diagram for the database schema.                                        |
-| **`flowcharts.pdf`**           | Flowcharts illustrating the database processes and workflows.                               |
-| **`pseudocode.md`**            | Pseudocode for implementing database functionalities.                                       |
-| **`README.md`**                | Documentation for the project.                                                              |
-...
+
+| File Name                                                   | Description                                                                                           |
+|-------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| **docs/planning/ERD.pdf**                                   | Entity-Relationship Diagram for the database schema.                                                  |
+| **docs/planning/flowcharts.pdf**                            | Flowcharts illustrating the database processes and workflows.                                         |
+| **docs/planning/pseudocode.md**                             | Pseudocode for implementing database functionalities.                                                 |
+| **docs/python_scripts/amend_dr_address.py**                 | Python script to amend doctor addresses to modify postcodes.                                          |
+| **docs/python_scripts/generate_doctor_data.py**             | Python script to generate random doctor data for the database.                                        |
+| **docs/python_scripts/generate_prescriptions.py**           | Python script to generate random prescription data for the database.                                  |
+| **docs/python_scripts/update_csv.py**                       | Python script to clean and prepare the original CSV data for MySQL/MS Access.                         |
+| **docs/cleaned_hospitals.csv**                              | Cleaned hospital data, ready for import into MySQL/MS Access.                                         |
+| **docs/cleaned_patients.csv**                               | Cleaned patient data, ready for import into MySQL/MS Access.                                          |
+| **docs/doctors.csv**                                        | CSV file containing doctor data.                                                                      |
+| **docs/final_doctors.csv**                                  | Cleaned and modified doctor data with updated addresses.                                              |
+| **docs/patients.csv**                                       | Original patients data file.                                                                          |
+| **docs/hospitals.csv**                                      | Original hospital data file.                                                                          |
+| **docs/original_doctors.csv**                               | Original doctor data file.                                                                            |
+| **sql/create_APPOINTMENTS.sql**                             | SQL script to create the `APPOINTMENTS` table.                                                        |
+| **sql/create_DISEASE.sql**                                  | SQL script to create the `DISEASE` table.                                                             |
+| **sql/create_LAB_RESULTS.sql**                              | SQL script to create the `LAB_RESULTS` table.                                                         |
+| **sql/create_MEDICATIONS.sql**                              | SQL script to create the `MEDICATIONS` table.                                                         |
+| **sql/create_hospitals_db.sql**                             | SQL script to create the `hospitals_db` database.                                                     |
+| **sql/create_load_DOCTORS.sql**                             | SQL script to create the `DOCTORS` table and load the doctor data.                                    |
+| **sql/create_load_HOSPITALS.sql**                           | SQL script to create the `HOSPITALS` table and load the cleaned hospital data.                        |
+| **sql/create_load_PATIENTS.sql**                            | SQL script to create the `PATIENTS` table and load the cleaned patient data.                          |
+| **sql/create_load_PRESCRIPTIONS.sql**                       | SQL script to create the `PRESCRIPTIONS` table and load generated prescription data.                  |
+| **sql/queries/list_drs_by_hospital.sql**                    | SQL script for querying doctors by hospital.                                                          |
+
+
 
 ---
 
