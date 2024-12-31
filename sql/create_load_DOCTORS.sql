@@ -15,5 +15,18 @@ CREATE TABLE DOCTORS (
     FOREIGN KEY (hospital_id) REFERENCES HOSPITALS(hospital_id)  -- Link to hospital_id in HOSPITALS table
 );
 
--- Verify that the DOCTORS table was created successfully
+-- Load DOCTORS table using doctors.csv
+-- Importing using terminal steps:
+-- 1. mysql --local-infile=1 -u root -p
+-- 2. USE hospitals_db;
+-- 3. 
+LOAD DATA LOCAL INFILE '/path/to/doctors.csv'
+INTO TABLE DOCTORS
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"' 
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(first_name, second_name, date_of_birth, hospital_id, address);
+
+-- Verify that the DOCTORS table was created and data imported successfully
 SELECT * FROM DOCTORS;
