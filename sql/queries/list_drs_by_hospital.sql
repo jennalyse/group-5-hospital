@@ -4,6 +4,7 @@
 DROP PROCEDURE IF EXISTS ListDoctorsByHospital;
 
 -- Set DELIMITER to // to ensure procedure executed at once
+-- Run this separately before procedure
 DELIMITER //
 
     -- Created stored procedure, taking hospital_name as input
@@ -37,3 +38,9 @@ DELIMITER //
 
 -- Reset DELIMITER to ;
 DELIMITER ;
+
+
+-- Then call hospital as so... (below are examples)
+CALL ListDoctorsByHospital('Royal London Hospital');
+CALL ListDoctorsByHospital('royal london');
+CALL ListDoctorsByHospital('Nonexistent Hospital');
