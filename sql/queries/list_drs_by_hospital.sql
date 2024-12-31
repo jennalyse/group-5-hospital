@@ -1,5 +1,7 @@
 -- 1. Print a list of all doctors at a particular hospital
 
+DROP PROCEDURE IF EXISTS ListDoctorsByHospital;
+
 DELIMITER //
 
 CREATE PROCEDURE ListDoctorsByHospital(IN input_hospital_name VARCHAR(255))
