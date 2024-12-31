@@ -196,9 +196,12 @@ correctly prepared before import and could be easily reused by others.
 
 ## How to Use the SQL Files
 1. Print a list of all doctors based at a particular hospital
+
 is under `list_drs_by_hospital.sql`. It retrieves a list of doctors based at a hospital given an input of a hospital name. It uses partial matching and is case-insensitive.
 The stored procedure requires the hospitals_db database with the tables HOSPITALS and DOCTORS, with the corresponding data imported into each.
+
 Run the SQL script to create the procedure by using: mysql -u root - p < list_drs_by_hospital.sql
+
 Then call the procedure, examples below:
 CALL ListDoctorsByHospital('Royal London Hospital');
 CALL ListDoctorsByHospital('royal london');
