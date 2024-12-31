@@ -17,3 +17,6 @@ CREATE TABLE PATIENTS (
 
 -- Verify that the PATIENTS table was created successfully
 SELECT * FROM PATIENTS;
+
+-- Add a SELECT query to view the table structure after creation
+SHOW CREATE TABLE PATIENTS;
