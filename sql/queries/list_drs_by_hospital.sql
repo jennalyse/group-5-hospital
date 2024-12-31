@@ -43,4 +43,5 @@ DELIMITER ;
 -- Then call hospital as so... (below are examples)
 CALL ListDoctorsByHospital('Royal London Hospital');
 CALL ListDoctorsByHospital('royal london');
+CALL ListDoctorsByHospital('Stoke mandeville');
 CALL ListDoctorsByHospital('Nonexistent Hospital');
