@@ -20,7 +20,7 @@ CREATE TABLE DOCTORS (
 -- 1. mysql --local-infile=1 -u root -p
 -- 2. USE hospitals_db;
 -- 3. 
-LOAD DATA LOCAL INFILE '/path/to/doctors.csv'
+LOAD DATA LOCAL INFILE '/path/to/final_doctors.csv'
 INTO TABLE DOCTORS
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"' 
