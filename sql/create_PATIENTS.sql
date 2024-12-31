@@ -18,5 +18,11 @@ CREATE TABLE PATIENTS (
 -- Verify that the PATIENTS table was created successfully
 SELECT * FROM PATIENTS;
 
--- Add a SELECT query to view the table structure after creation
-SHOW CREATE TABLE PATIENTS;
+-- Load data from CSV file into PATIENTS table
+LOAD DATA LOCAL INFILE 'D:/Documents/Exeter/Semester 1/HPDM172_Computational Skills for Health and Life Sciences/Patients.csv'
+INTO TABLE PATIENTS
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(first_name, last_name, date_of_birth, address, doctor_id);
