@@ -19,17 +19,21 @@ BEGIN
         -- Check if hospital exists
         IF resolved_hospital_id IS NULL THEN
             SELECT "Hospital not found by name." AS message;
-            LEAVE PROCEDURE;
+            RETURN;
         END IF;
-    ELSE
+    ELSEIF input_hospital_id IS NOT NULL THEN
         -- Use input_hospital_id if provided
         SET resolved_hospital_id = input_hospital_id;
 
         -- Check if hospital exists
         IF (SELECT COUNT(*) FROM HOSPITALS WHERE hospital_id = resolved_hospital_id) = 0 THEN
             SELECT "Hospital not found by ID." AS message;
-            LEAVE PROCEDURE;
+            RETURN;
         END IF;
+    ELSE
+        -- Neither hospital_id nor hospital_name is provided
+        SELECT "Please provide either a hospital name or ID." AS message;
+        RETURN;
     END IF;
 
     -- Query to list doctors
