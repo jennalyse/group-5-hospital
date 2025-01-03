@@ -15,5 +15,19 @@ CREATE TABLE DISEASE (
     FOREIGN KEY (med_id) REFERENCES MEDICATIONS(med_id)     -- Link to med_id in MEDICATIONS table
 );
 
+-- Load DISEASE table using diseases.csv
+-- Importing using terminal steps:
+-- 1. mysql --local-infile=1 -u root -p
+-- 2. USE hospitals_db;
+-- 3. 
+LOAD DATA LOCAL INFILE '/path/to/diseases.csv'
+INTO TABLE DISEASE
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"' 
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(disease_name, disease_treatment, doctor_id, med_id);
+
+
 -- Verify that the DISEASE table was created successfully
 SELECT * FROM DISEASE;
