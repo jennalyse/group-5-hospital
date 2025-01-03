@@ -51,5 +51,11 @@ SET medication_id = (
     LIMIT 1
 );
 
+-- After creation, it appeared to make logical sense to assign each patient to have their linked doctor prescribe
+-- their medications, this amendment can be done as so:
+UPDATE PRESCRIPTIONS p
+JOIN PATIENTS pt ON p.patient_id = pt.patient_id
+SET p.doctor_id = pt.doctor_id;
+
 -- Check the updated PRESCRIPTIONS table
 SELECT * FROM PRESCRIPTIONS
