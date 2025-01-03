@@ -12,5 +12,18 @@ CREATE TABLE MEDICATIONS (
     med_type VARCHAR(100)                             -- Type of medication (e.g., Tablet, Syrup, etc.)
 );
 
+-- Load MEDICATIONS table using medications.csv
+-- Importing using terminal steps:
+-- 1. mysql --local-infile=1 -u root -p
+-- 2. USE hospitals_db;
+-- 3. 
+LOAD DATA LOCAL INFILE '/path/to/medications.csv'
+INTO TABLE DOCTORS
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"' 
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(med_name, med_manufacturer, med_type);
+
 -- Verify that the MEDICATIONS table was created successfully
 SELECT * FROM MEDICATIONS;
