@@ -16,5 +16,18 @@ CREATE TABLE LAB_RESULTS (
     FOREIGN KEY (doctor_id) REFERENCES DOCTORS(doctor_id)      -- Link to doctor_id in DOCTORS table
 );
 
+-- Load LAB_RESULTS table using lab_results.csv
+-- Importing using terminal steps:
+-- 1. mysql --local-infile=1 -u root -p
+-- 2. USE hospitals_db;
+-- 3. 
+LOAD DATA LOCAL INFILE '/path/to/lab_results.csv'
+INTO TABLE DOCTORS
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"' 
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(lab_test, lab_date, lab_result, patient_id, doctor_id);
+
 -- Verify that the LAB_RESULTS table was created successfully
 SELECT * FROM LAB_RESULTS;
