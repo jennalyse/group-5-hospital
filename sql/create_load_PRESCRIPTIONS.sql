@@ -43,5 +43,13 @@ SET patient_id = (
     LIMIT 1
 );
 
+UPDATE PRESCRIPTIONS
+SET medication_id = (
+    SELECT med_id
+    FROM MEDICATIONS
+    ORDER BY RAND()
+    LIMIT 1
+);
+
 -- Check the updated PRESCRIPTIONS table
 SELECT * FROM PRESCRIPTIONS
