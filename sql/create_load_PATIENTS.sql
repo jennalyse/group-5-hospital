@@ -8,7 +8,7 @@ DROP TABLE IF EXISTS PATIENTS;
 CREATE TABLE PATIENTS (
     patient_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,  
     first_name VARCHAR(100) NOT NULL,                    
-    last_name VARCHAR(100) NOT NULL,                     
+    second_name VARCHAR(100) NOT NULL,                     
     date_of_birth DATE,                                  
     address TEXT,                                        
     doctor_id INT,                                         -- Foreign key to DOCTORS table
@@ -25,4 +25,4 @@ FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS
-(first_name, last_name, date_of_birth, address, doctor_id);
+(first_name, second_name, date_of_birth, address, doctor_id);
