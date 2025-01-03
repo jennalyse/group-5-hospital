@@ -15,5 +15,18 @@ CREATE TABLE APPOINTMENTS (
     FOREIGN KEY (doctor_id) REFERENCES DOCTORS(doctor_id)      -- Link to doctor_id in DOCTORS table
 );
 
+-- Load APPOINTMENTS table using appointments.csv
+-- Importing using terminal steps:
+-- 1. mysql --local-infile=1 -u root -p
+-- 2. USE hospitals_db;
+-- 3. 
+LOAD DATA LOCAL INFILE '/path/to/appointments.csv'
+INTO TABLE DOCTORS
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"' 
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(appt_date, appt_purpose, patient_id, doctor_id);
+
 -- Verify that the APPOINTMENTS table was created successfully
 SELECT * FROM APPOINTMENTS;
