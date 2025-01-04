@@ -1,12 +1,12 @@
 first_name,last_name,doctor_id,test_name,disease indicator,healthy range,result_value,unit,test_date
 Owen,Turner-Morgan,13,C-Reactive Protein Test,"Heart disease, inflammation, cancer",<0.3 mg/dL,0.25,mg/dL,2023-05-28
 Elliott Rowan,George,43,Low density lipoprotein,High levels lead to plaque in arteries,100 mg/dL,110,mg/dL,2024-12-12
-Jordan,Porter,63,Iron,"iron deficiency & anaemia, or other blood disorders", 60 - 170 mcg/dL,93.99,mg/dL,2026-06-23
+Jordan,Porter,63,Iron,"iron deficiency & anaemia, or other blood disorders",Â 60 - 170 mcg/dL,93.99,mg/dL,2026-06-23
 Amber,Evans,48,Blood Sugar,Diabetes,70-100 mg/dL,91.34,mg/dL,2023-01-14
 Harry Reese,Hall,12,High density lipoprotein,High levels can lower risk of heart disease and stroke,60 milligrams per deciliter (mg/dL),65,mg/dL,2024-07-31
 Eileen,Holmes-Mitchell,74,Blood Sugar,Diabetes,70-100 mg/dL,110,mg/dL,2022-02-15
 Alice Skyler,Turner,51,Thyroxine,Metabolic rate,5.0 to 12.0 micrograms per deciliter (?g/dL),11,mg/dL,2021-09-01
-Clive,Morrison-Gray,56,Iron,"iron deficiency & anaemia, or other blood disorders", 60 - 170 mcg/dL,65,mg/dL,2022-03-19
+Clive,Morrison-Gray,56,Iron,"iron deficiency & anaemia, or other blood disorders",Â 60 - 170 mcg/dL,65,mg/dL,2022-03-19
 Linda,Osborne-Parker,51,Low density lipoprotein,High levels lead to plaque in arteries,100 mg/dL,90,mg/dL,2024-10-04
 Gemma,White,58,Heamatocrit,blood disorders,36-50%,44,mg/dL,2024-04-20
 Marie Finley,Wade-Collins,53,Blood Sugar,Diabetes,70-100 mg/dL,69.95,mg/dL,2022-11-05
@@ -14,22 +14,22 @@ Ronald,Wilson,97,Potassium,electrolyte levels,3.7-5.2 mEq/L,3.5,mEq/L,2022-05-22
 Angela Logan,Davies,47,Blood Sugar,Diabetes,70-100 mg/dL,91.43,mg/dL,2023-12-07
 Gail,Lambert,33,Blood Sugar,Diabetes,70-100 mg/dL,65.98,mg/dL,2023-06-24
 Joan Skyler,Knowles,22,Potassium,electrolyte levels,3.7-5.2 mEq/L,4.5,mEq/L,2021-01-08
-Frances,Stevenson,14,Platelets,"risk of thrombocytosis, blood clots or strokes if high",150–400 × 103/?L,259,× 10 3/?L,2023-05-28
-Julie,Brown,44,Platelets,"risk of thrombocytosis, blood clots or strokes if high",150–400 × 103/?L,300,× 10 3/?L,2024-10-09
+Frances,Stevenson,14,Platelets,"risk of thrombocytosis, blood clots or strokes if high",150â€“400 Ã— 103/?L,259,Ã— 10 3/?L,2023-05-28
+Julie,Brown,44,Platelets,"risk of thrombocytosis, blood clots or strokes if high",150â€“400 Ã— 103/?L,300,Ã— 10 3/?L,2024-10-09
 Raymond,Dennis,80,Heamatocrit,blood disorders,36-50%,44,%,2023-05-15
 Glenn,Faulkner,65,Low density lipoprotein,High levels lead to plaque in arteries,100 mg/dL,115,mg/dL,2023-01-14
 Rhys Jordan,Crawford-Morris,11,Thyroxine,Metabolic rate,5.0 to 12.0 micrograms per deciliter (?g/dL),7.8,mg/dL,2024-07-31
-Alison,Dawson,40,Platelets,"risk of thrombocytosis, blood clots or strokes if high",150–400 × 103/?L,160,× 10 3/?L,2022-02-15
-Georgia Skyler,Fox,35,White blood cells,"infection, immune system disorders",4.0–10.8 × 103/?L,5.6,× 10 3/?L,2021-09-01
-Gregory Harper,Allen-Ward,86,Platelets,"risk of thrombocytosis, blood clots or strokes if high",4.0–6.1 × 106/ ?L,4.8,× 10 3/?L,2022-03-19
+Alison,Dawson,40,Platelets,"risk of thrombocytosis, blood clots or strokes if high",150â€“400 Ã— 103/?L,160,Ã— 10 3/?L,2022-02-15
+Georgia Skyler,Fox,35,White blood cells,"infection, immune system disorders",4.0â€“10.8 Ã— 103/?L,5.6,Ã— 10 3/?L,2021-09-01
+Gregory Harper,Allen-Ward,86,Platelets,"risk of thrombocytosis, blood clots or strokes if high",4.0â€“6.1 Ã— 106/ ?L,4.8,Ã— 10 3/?L,2022-03-19
 Hugh,Collins-Taylor,80,Sodium,electrolyte levels,135-145 mEq/L,145,mEq/L,2024-10-04
 Alex,Fletcher,18,High density lipoprotein,High levels can lower risk of heart disease and stroke,60 milligrams per deciliter (mg/dL),55,mg/dL,2024-04-29
-Karen Rowan,Perry,77,Platelets,"risk of thrombocytosis, blood clots or strokes if high",150–400 × 103/?L,190,× 10 3/?L,2022-11-15
+Karen Rowan,Perry,77,Platelets,"risk of thrombocytosis, blood clots or strokes if high",150â€“400 Ã— 103/?L,190,Ã— 10 3/?L,2022-11-15
 Janice,Roberts,71,Blood Sugar,Diabetes,70-100 mg/dL,90.61,mcg/dL,2021-02-22
 Irene Quinn,Morris,94,Thyroxine,Metabolic rate,5.0 to 12.0 micrograms per deciliter (?g/dL),3.87,mg/dL,2022-06-17
 Anne,Greenwood-Taylor,75,C-Reactive Protein Test,"Heart disease, inflammation, cancer",<0.3 mg/dL,0.9,mg/dL,2024-06-29
 Michael,Wade,57,Haematocrit,blood disorders,36-50%,39,%,2021-03-17
-Wayne,Sutton,78,Iron,"iron deficiency & anaemia, or other blood disorders", 60 - 170 mcg/dL,105,mcg/dL,2023-09-28
+Wayne,Sutton,78,Iron,"iron deficiency & anaemia, or other blood disorders",Â 60 - 170 mcg/dL,105,mcg/dL,2023-09-28
 Joanne,Flynn,47,High density lipoprotein,High levels can lower risk of heart disease and stroke,60 milligrams per deciliter (mg/dL),67,mg/dL,2021-11-28
 Martyn,Watson-Parker,20,Blood Sugar,Diabetes,70-100 mg/dL,110,mg/dL,2022-01-01
 Barbara,Walker,65,Thyroxine,Metabolic rate,5.0 to 12.0 micrograms per deciliter (?g/dL),4.8,mg/dL,2023-03-17
