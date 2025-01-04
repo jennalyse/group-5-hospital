@@ -1,8 +1,10 @@
+# 2 out of 3 patient csv amendments.
+
 import pandas as pd
 import random
 
 # Load the dataset.
-patients_file_path = '/path/to/corrected_patients.csv'
+patients_file_path = '/path/to/final_patients.csv'
 patients_df = pd.read_csv(patients_file_path)
 
 # Lists to generate middle names and double-barrelled last names.
