@@ -1,3 +1,5 @@
+# 3 out of 3 patient csv amendments.
+
 import pandas as pd
 import random
 import re
@@ -84,7 +86,7 @@ patients_df.drop(columns=['postcode_area'], inplace=True)
 doctors_df.drop(columns=['postcode_area'], inplace=True)
 
 # Save the updated patients dataset.
-updated_patients_file_path = '/path/to/final_patients_corrected.csv'
+updated_patients_file_path = '/path/to/final_patients.csv'
 patients_df.to_csv(updated_patients_file_path, index=False)
 
 print(f"Updated patients dataset saved to {updated_patients_file_path}")
