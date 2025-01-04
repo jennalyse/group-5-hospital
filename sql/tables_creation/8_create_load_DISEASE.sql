@@ -20,7 +20,7 @@ CREATE TABLE DISEASE (
 -- 1. mysql --local-infile=1 -u root -p
 -- 2. USE hospitals_db;
 -- 3. 
-LOAD DATA LOCAL INFILE '/path/to/diseases.csv'
+LOAD DATA LOCAL INFILE '/path/to/final_diseases.csv'
 INTO TABLE DISEASE
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"' 
