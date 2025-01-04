@@ -1,3 +1,5 @@
+# 1 out of 3 patient csv amendments.
+
 import pandas as pd
 import random
 import re
@@ -123,7 +125,7 @@ doctor_address_map = dict(zip(doctors_df.index + 1, doctors_df['address']))
 patients_df['address'] = patients_df['doctor_id'].map(lambda x: generate_patient_address_with_variety(doctor_address_map[x]))
 
 # Save the corrected patients dataset to a new file.
-corrected_patients_file_path = '/path/to/corrected_patients.csv' 
+corrected_patients_file_path = '/path/to/final_patients.csv' 
 patients_df.to_csv(corrected_patients_file_path, index=False)
 
 print(f"Corrected patients dataset saved to {corrected_patients_file_path}")
