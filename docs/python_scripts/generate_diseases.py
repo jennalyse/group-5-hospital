@@ -154,5 +154,5 @@ else:
     raise ValueError("Number of diseases exceeds the number of available doctors.")
 
 # Save the updated DataFrame back to CSV.
-output_file = "diseases.csv"
+output_file = "final_diseases.csv"
 diseases_df.to_csv(output_file, index=False)
