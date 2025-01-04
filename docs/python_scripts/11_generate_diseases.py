@@ -3,7 +3,7 @@
 import pandas as pd
 import random
 
-medications_df = pd.read_csv("medications.csv")
+medications_df = pd.read_csv("final_medications.csv")
 
 # Assign a unique med_id based on the order of medications in the medications.csv file.
 medications_df["med_id"] = range(1, len(medications_df) + 1)
