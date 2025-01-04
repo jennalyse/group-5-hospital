@@ -21,7 +21,7 @@ CREATE TABLE LAB_RESULTS (
 -- 1. mysql --local-infile=1 -u root -p
 -- 2. USE hospitals_db;
 -- 3. 
-LOAD DATA LOCAL INFILE '/path/to/lab_results.csv'
+LOAD DATA LOCAL INFILE '/path/to/final_lab_results.csv'
 INTO TABLE DOCTORS
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"' 
