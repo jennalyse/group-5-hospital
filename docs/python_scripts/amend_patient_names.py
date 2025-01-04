@@ -37,6 +37,9 @@ def make_double_barrelled(last_name):
 patients_df['first_name'] = patients_df['first_name'].apply(add_middle_name)
 patients_df['last_name'] = patients_df['last_name'].apply(make_double_barrelled)
 
+# Rename column to match ERD and doctors table.
+patients_df.rename(columns={'last_name': 'second_name'}, inplace=True)
+
 # Save the updated dataset.
 updated_patients_file_path = 'path/to/final_patients.csv' 
 patients_df.to_csv(updated_patients_file_path, index=False)
