@@ -77,6 +77,6 @@ for med in medication_details:
 medications_df = pd.DataFrame(medication_data)
 
 # Save to CSV.
-output_file_path = "medications.csv"
+output_file_path = "final_medications.csv"
 medications_df.to_csv(output_file_path, index=False)
 
