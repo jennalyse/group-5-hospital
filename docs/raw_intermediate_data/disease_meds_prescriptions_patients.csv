@@ -1,0 +1,530 @@
+patient_name,patient_id,prescription_id,prescription_date,doctor_name,doctor_id,med_id,med_name,med_type,disease_id,disease_name,disease_treatment
+Dylan Cameron Gibbs-Cooper,352,11,2023-12-14,Sandra Pearson,86,1,Amlodipine,Antihypertensive,1,Hypertension,"Antihypertensive medication; reduced salt intake, regular exercise"
+Megan Griffiths,458,112,2024-07-17,Gerard Ali,89,1,Amlodipine,Antihypertensive,1,Hypertension,"Antihypertensive medication; reduced salt intake, regular exercise"
+Louise Lowe,242,180,2023-03-29,Sara Smith,30,1,Amlodipine,Antihypertensive,1,Hypertension,"Antihypertensive medication; reduced salt intake, regular exercise"
+Naomi Morgan Kay,61,181,2024-01-11,Julie Smith,78,1,Amlodipine,Antihypertensive,1,Hypertension,"Antihypertensive medication; reduced salt intake, regular exercise"
+Frances Hale,217,252,2023-03-14,Bryan Jones,87,1,Amlodipine,Antihypertensive,1,Hypertension,"Antihypertensive medication; reduced salt intake, regular exercise"
+Lewis Taylor,513,331,2024-08-30,Joanne Cooke,10,1,Amlodipine,Antihypertensive,1,Hypertension,"Antihypertensive medication; reduced salt intake, regular exercise"
+Teresa Akhtar,286,415,2024-03-22,Leah Watson,9,1,Amlodipine,Antihypertensive,1,Hypertension,"Antihypertensive medication; reduced salt intake, regular exercise"
+Elizabeth Campbell-Hill,91,421,2023-03-07,Leigh Lynch,65,1,Amlodipine,Antihypertensive,1,Hypertension,"Antihypertensive medication; reduced salt intake, regular exercise"
+Lucy Jenkins,188,428,2024-11-12,Craig Green,67,1,Amlodipine,Antihypertensive,1,Hypertension,"Antihypertensive medication; reduced salt intake, regular exercise"
+Aimee Clark,494,456,2024-11-17,Raymond Green,84,1,Amlodipine,Antihypertensive,1,Hypertension,"Antihypertensive medication; reduced salt intake, regular exercise"
+Charles Mann,134,6,2024-03-20,Simon Middleton,62,2,Metformin,Antidiabetic,2,Type 2 Diabetes Mellitus,Blood sugar-lowering medication; dietary adjustments
+Clare Frost,520,25,2024-06-13,Sally Nelson,29,2,Metformin,Antidiabetic,2,Type 2 Diabetes Mellitus,Blood sugar-lowering medication; dietary adjustments
+Stephanie Boyle-Bell,184,75,2023-03-14,Bryan Jones,87,2,Metformin,Antidiabetic,2,Type 2 Diabetes Mellitus,Blood sugar-lowering medication; dietary adjustments
+Trevor Jordan Slater-Rogers,338,101,2024-09-15,Simon Webb,43,2,Metformin,Antidiabetic,2,Type 2 Diabetes Mellitus,Blood sugar-lowering medication; dietary adjustments
+Irene Hodgson-Robinson,175,117,2023-10-20,June Kaur,2,2,Metformin,Antidiabetic,2,Type 2 Diabetes Mellitus,Blood sugar-lowering medication; dietary adjustments
+Marion Barnett,254,203,2024-02-15,Mandy White,38,2,Metformin,Antidiabetic,2,Type 2 Diabetes Mellitus,Blood sugar-lowering medication; dietary adjustments
+Trevor Jordan Slater-Rogers,338,205,2023-08-01,Simon Webb,43,2,Metformin,Antidiabetic,2,Type 2 Diabetes Mellitus,Blood sugar-lowering medication; dietary adjustments
+Gail Woodward,345,356,2023-05-23,Lynn Collier,77,2,Metformin,Antidiabetic,2,Type 2 Diabetes Mellitus,Blood sugar-lowering medication; dietary adjustments
+Andrea Quinn Watkins,324,485,2024-11-10,Stuart Kemp,99,2,Metformin,Antidiabetic,2,Type 2 Diabetes Mellitus,Blood sugar-lowering medication; dietary adjustments
+Jodie Williams,18,204,2023-11-26,Robin Jones,44,3,Albuterol,Bronchodilator,3,Asthma,Inhaled bronchodilator; pulmonary rehabilitation
+Sharon Finley Harrison,477,207,2023-09-01,Tracey Robson,79,3,Albuterol,Bronchodilator,3,Asthma,Inhaled bronchodilator; pulmonary rehabilitation
+Jordan Harding,47,226,2024-12-09,Rachel Parkinson,100,3,Albuterol,Bronchodilator,3,Asthma,Inhaled bronchodilator; pulmonary rehabilitation
+Barbara Sullivan,381,345,2023-06-25,Albert Jones,34,3,Albuterol,Bronchodilator,3,Asthma,Inhaled bronchodilator; pulmonary rehabilitation
+Gerald Clark,497,436,2023-09-04,Geraldine Brown,56,3,Albuterol,Bronchodilator,3,Asthma,Inhaled bronchodilator; pulmonary rehabilitation
+Benjamin Skyler Burke,135,472,2024-02-10,Janet Preston,12,3,Albuterol,Bronchodilator,3,Asthma,Inhaled bronchodilator; pulmonary rehabilitation
+Ruth Griffiths,1,97,2024-12-07,Lewis Bevan,7,4,Sertraline,Antidepressant,4,Major Depressive Disorder,Antidepressant; cognitive behavioral therapy
+Gary Harris,237,122,2023-07-23,Abigail Gardiner,73,4,Sertraline,Antidepressant,4,Major Depressive Disorder,Antidepressant; cognitive behavioral therapy
+Dylan Lee,556,124,2024-03-25,Albert Jones,34,4,Sertraline,Antidepressant,4,Major Depressive Disorder,Antidepressant; cognitive behavioral therapy
+Laura Brown,392,182,2024-07-31,Eleanor Finch,42,4,Sertraline,Antidepressant,4,Major Depressive Disorder,Antidepressant; cognitive behavioral therapy
+June Taylor,568,194,2023-05-04,Lynn Collier,77,4,Sertraline,Antidepressant,4,Major Depressive Disorder,Antidepressant; cognitive behavioral therapy
+Arthur Cameron Cook-Carter,321,209,2024-08-23,Sara Smith,30,4,Sertraline,Antidepressant,4,Major Depressive Disorder,Antidepressant; cognitive behavioral therapy
+Leanne Morgan Robinson,489,360,2024-09-09,Eleanor Finch,42,4,Sertraline,Antidepressant,4,Major Depressive Disorder,Antidepressant; cognitive behavioral therapy
+Kate Jordan Patel,495,367,2024-11-14,Irene Wright,36,4,Sertraline,Antidepressant,4,Major Depressive Disorder,Antidepressant; cognitive behavioral therapy
+Mohamed Day-Adams,558,389,2023-02-13,Ben Cook,71,4,Sertraline,Antidepressant,4,Major Depressive Disorder,Antidepressant; cognitive behavioral therapy
+Guy Morrison-Collins,596,15,2023-08-14,Glenn Armstrong,14,5,Ibuprofen,Analgesic,5,Osteoarthritis,NSAID for pain relief; physical therapy
+Alan Storey-Hill,504,50,2024-06-30,Jayne Simpson,17,5,Ibuprofen,Analgesic,5,Osteoarthritis,NSAID for pain relief; physical therapy
+Darren Jamie Khan,373,59,2024-10-15,June Kaur,2,5,Ibuprofen,Analgesic,5,Osteoarthritis,NSAID for pain relief; physical therapy
+Alice Skyler Turner,176,74,2023-10-14,Caroline Bond,51,5,Ibuprofen,Analgesic,5,Osteoarthritis,NSAID for pain relief; physical therapy
+Richard Welch,204,107,2023-07-01,Stuart Kemp,99,5,Ibuprofen,Analgesic,5,Osteoarthritis,NSAID for pain relief; physical therapy
+Jenna Smith,263,139,2023-12-23,Lawrence Brown,3,5,Ibuprofen,Analgesic,5,Osteoarthritis,NSAID for pain relief; physical therapy
+Lorraine Taylor-Bell,429,166,2024-04-28,Lisa Bennett,90,5,Ibuprofen,Analgesic,5,Osteoarthritis,NSAID for pain relief; physical therapy
+Sarah Riley Fox,578,289,2023-06-23,Bryan Jones,87,5,Ibuprofen,Analgesic,5,Osteoarthritis,NSAID for pain relief; physical therapy
+June Sykes-Collins,356,290,2024-04-01,Stuart Kemp,99,5,Ibuprofen,Analgesic,5,Osteoarthritis,NSAID for pain relief; physical therapy
+Dominic Rowan Sheppard-Harris,100,390,2024-02-20,Carl James,81,5,Ibuprofen,Analgesic,5,Osteoarthritis,NSAID for pain relief; physical therapy
+Douglas Peyton Green,339,412,2023-01-14,Marcus Hart,58,5,Ibuprofen,Analgesic,5,Osteoarthritis,NSAID for pain relief; physical therapy
+Graeme Reese Bull,510,422,2024-08-20,Georgia Barlow,95,5,Ibuprofen,Analgesic,5,Osteoarthritis,NSAID for pain relief; physical therapy
+John Walker,306,458,2024-12-24,Jasmine Frost,49,5,Ibuprofen,Analgesic,5,Osteoarthritis,NSAID for pain relief; physical therapy
+Josh Avery Morris-Bell,360,16,2023-07-02,Vincent Saunders,70,6,Tiotropium,Anticholinergic,6,Chronic Obstructive Pulmonary Disease,Bronchodilators; smoking cessation
+Martin George-Adams,478,22,2024-03-20,Philip Stephenson,80,6,Tiotropium,Anticholinergic,6,Chronic Obstructive Pulmonary Disease,Bronchodilators; smoking cessation
+Ann Nelson,593,65,2023-01-15,Lisa Bennett,90,6,Tiotropium,Anticholinergic,6,Chronic Obstructive Pulmonary Disease,Bronchodilators; smoking cessation
+Nigel Casey May,33,131,2023-08-30,Philip Cooper,59,6,Tiotropium,Anticholinergic,6,Chronic Obstructive Pulmonary Disease,Bronchodilators; smoking cessation
+Leigh Elliot Turner-Adams,112,148,2024-07-06,Debra Griffiths,93,6,Tiotropium,Anticholinergic,6,Chronic Obstructive Pulmonary Disease,Bronchodilators; smoking cessation
+Craig Taylor Birch,226,200,2024-07-19,Jayne Lewis,13,6,Tiotropium,Anticholinergic,6,Chronic Obstructive Pulmonary Disease,Bronchodilators; smoking cessation
+Jay Moore,488,224,2023-07-23,Gregory Lane,35,6,Tiotropium,Anticholinergic,6,Chronic Obstructive Pulmonary Disease,Bronchodilators; smoking cessation
+Thomas Quinn Wright,491,236,2024-10-27,Charles Bradley,98,6,Tiotropium,Anticholinergic,6,Chronic Obstructive Pulmonary Disease,Bronchodilators; smoking cessation
+Sarah Campbell,162,261,2023-01-17,Adam Clarke,5,6,Tiotropium,Anticholinergic,6,Chronic Obstructive Pulmonary Disease,Bronchodilators; smoking cessation
+Marian Reese George,425,315,2023-04-07,Rosie O'Connor,45,6,Tiotropium,Anticholinergic,6,Chronic Obstructive Pulmonary Disease,Bronchodilators; smoking cessation
+Amy Khan,101,321,2023-03-15,Reece Graham,6,6,Tiotropium,Anticholinergic,6,Chronic Obstructive Pulmonary Disease,Bronchodilators; smoking cessation
+Sandra Alex Murray,582,489,2023-05-04,Simon Middleton,62,6,Tiotropium,Anticholinergic,6,Chronic Obstructive Pulmonary Disease,Bronchodilators; smoking cessation
+Joel Skyler Wilson,85,51,2023-11-25,Iain Davies,4,7,Atorvastatin,Statin,7,Coronary Artery Disease,"Statins; lifestyle changes, angioplasty if needed"
+Elliott Allen,279,87,2023-01-16,Caroline Bond,51,7,Atorvastatin,Statin,7,Coronary Artery Disease,"Statins; lifestyle changes, angioplasty if needed"
+Suzanne Logan Davis,314,151,2024-06-17,Gordon Wright,54,7,Atorvastatin,Statin,7,Coronary Artery Disease,"Statins; lifestyle changes, angioplasty if needed"
+Anna Taylor-Scott,44,162,2023-09-25,Jayne Simpson,17,7,Atorvastatin,Statin,7,Coronary Artery Disease,"Statins; lifestyle changes, angioplasty if needed"
+Joanna Turner,93,201,2024-12-24,Janice Reid,88,7,Atorvastatin,Statin,7,Coronary Artery Disease,"Statins; lifestyle changes, angioplasty if needed"
+Lindsey Davies,142,347,2024-10-22,Rosie O'Connor,45,7,Atorvastatin,Statin,7,Coronary Artery Disease,"Statins; lifestyle changes, angioplasty if needed"
+Joanne Flynn,193,468,2023-02-16,Kieran Ford,47,7,Atorvastatin,Statin,7,Coronary Artery Disease,"Statins; lifestyle changes, angioplasty if needed"
+Marian Reese George,425,476,2024-02-11,Rosie O'Connor,45,7,Atorvastatin,Statin,7,Coronary Artery Disease,"Statins; lifestyle changes, angioplasty if needed"
+Andrea Casey Robson,341,478,2023-08-24,Adam Clarke,5,7,Atorvastatin,Statin,7,Coronary Artery Disease,"Statins; lifestyle changes, angioplasty if needed"
+Clare Skyler Sims,70,21,2024-04-30,Lewis Fletcher,39,8,Methotrexate,Immunosuppressant,8,Rheumatoid Arthritis,"DMARDs; joint protection, physiotherapy"
+Jodie Williams,18,28,2024-03-22,Robin Jones,44,8,Methotrexate,Immunosuppressant,8,Rheumatoid Arthritis,"DMARDs; joint protection, physiotherapy"
+Rhys Richardson,16,137,2024-05-06,Adam Clarke,5,8,Methotrexate,Immunosuppressant,8,Rheumatoid Arthritis,"DMARDs; joint protection, physiotherapy"
+Jade Gregory,243,138,2023-04-20,Janet Preston,12,8,Methotrexate,Immunosuppressant,8,Rheumatoid Arthritis,"DMARDs; joint protection, physiotherapy"
+Sophie Alex Benson,155,173,2023-07-12,Philip Walters,46,8,Methotrexate,Immunosuppressant,8,Rheumatoid Arthritis,"DMARDs; joint protection, physiotherapy"
+Lynda Slater,470,193,2024-06-08,Victor Evans,66,8,Methotrexate,Immunosuppressant,8,Rheumatoid Arthritis,"DMARDs; joint protection, physiotherapy"
+Jayne Davies-Bennett,54,218,2024-05-02,Gordon Mistry,63,8,Methotrexate,Immunosuppressant,8,Rheumatoid Arthritis,"DMARDs; joint protection, physiotherapy"
+Barbara Sullivan,381,223,2024-10-20,Albert Jones,34,8,Methotrexate,Immunosuppressant,8,Rheumatoid Arthritis,"DMARDs; joint protection, physiotherapy"
+Sian Burgess,159,344,2024-03-06,Philip Stephenson,80,8,Methotrexate,Immunosuppressant,8,Rheumatoid Arthritis,"DMARDs; joint protection, physiotherapy"
+Lewis Taylor,513,351,2024-09-25,Joanne Cooke,10,8,Methotrexate,Immunosuppressant,8,Rheumatoid Arthritis,"DMARDs; joint protection, physiotherapy"
+Lydia Avery Nicholls,365,376,2024-02-03,Marcus Harris,15,8,Methotrexate,Immunosuppressant,8,Rheumatoid Arthritis,"DMARDs; joint protection, physiotherapy"
+Hazel Taylor Rees,110,408,2024-08-22,Philip Cooper,59,8,Methotrexate,Immunosuppressant,8,Rheumatoid Arthritis,"DMARDs; joint protection, physiotherapy"
+Arthur Cameron Cook-Carter,321,457,2024-10-21,Sara Smith,30,8,Methotrexate,Immunosuppressant,8,Rheumatoid Arthritis,"DMARDs; joint protection, physiotherapy"
+Stanley Quinn Dixon-Adams,130,90,2024-03-19,Maurice Roberts,97,9,Levetiracetam,Antiepileptic,9,Epilepsy,Antiepileptic drugs; ketogenic diet for refractory cases
+Jasmine Barber,342,102,2023-09-19,Jayne Lewis,13,9,Levetiracetam,Antiepileptic,9,Epilepsy,Antiepileptic drugs; ketogenic diet for refractory cases
+Danielle Lewis,269,154,2024-10-13,Stuart Kemp,99,9,Levetiracetam,Antiepileptic,9,Epilepsy,Antiepileptic drugs; ketogenic diet for refractory cases
+Harry Reese Hall,291,234,2023-01-05,Janet Preston,12,9,Levetiracetam,Antiepileptic,9,Epilepsy,Antiepileptic drugs; ketogenic diet for refractory cases
+Geoffrey Wright,248,333,2024-11-03,Rebecca Wheeler,52,9,Levetiracetam,Antiepileptic,9,Epilepsy,Antiepileptic drugs; ketogenic diet for refractory cases
+Dawn Woods,334,364,2023-12-20,Rosie O'Connor,45,9,Levetiracetam,Antiepileptic,9,Epilepsy,Antiepileptic drugs; ketogenic diet for refractory cases
+Thomas Nelson,466,443,2024-07-13,Reece Graham,6,9,Levetiracetam,Antiepileptic,9,Epilepsy,Antiepileptic drugs; ketogenic diet for refractory cases
+Damian Stevenson,302,460,2023-03-05,Jasmine Williams,76,9,Levetiracetam,Antiepileptic,9,Epilepsy,Antiepileptic drugs; ketogenic diet for refractory cases
+Joanna Dean,426,494,2023-04-21,Jayne Simpson,17,9,Levetiracetam,Antiepileptic,9,Epilepsy,Antiepileptic drugs; ketogenic diet for refractory cases
+Antony Hilton,234,106,2024-12-10,Sandra Pearson,86,10,Levodopa,Dopaminergic,10,Parkinson's Disease,Dopaminergic agents; physical therapy
+Robin Bradley,201,121,2024-05-17,Gordon Mistry,63,10,Levodopa,Dopaminergic,10,Parkinson's Disease,Dopaminergic agents; physical therapy
+Danielle Lewis,269,132,2024-01-24,Stuart Kemp,99,10,Levodopa,Dopaminergic,10,Parkinson's Disease,Dopaminergic agents; physical therapy
+Frances Stevenson,435,313,2023-04-21,Glenn Armstrong,14,10,Levodopa,Dopaminergic,10,Parkinson's Disease,Dopaminergic agents; physical therapy
+James Casey Norris,172,325,2024-02-23,Richard Patel,23,10,Levodopa,Dopaminergic,10,Parkinson's Disease,Dopaminergic agents; physical therapy
+Billy Patterson,174,414,2024-05-04,Iain Davies,4,10,Levodopa,Dopaminergic,10,Parkinson's Disease,Dopaminergic agents; physical therapy
+Susan Turnbull,371,438,2023-05-21,Eileen Hewitt,94,10,Levodopa,Dopaminergic,10,Parkinson's Disease,Dopaminergic agents; physical therapy
+Christopher Jordan Webster-Robinson,182,486,2024-12-10,Jasmine Williams,76,10,Levodopa,Dopaminergic,10,Parkinson's Disease,Dopaminergic agents; physical therapy
+George Peyton Murray-Gray,509,49,2024-11-22,Michael Scott,64,11,Sumatriptan,Triptan,11,Migraine,"Triptans; avoidance of triggers, regular sleep patterns"
+Andrea Martin,49,189,2024-09-20,Lesley Yates,31,11,Sumatriptan,Triptan,11,Migraine,"Triptans; avoidance of triggers, regular sleep patterns"
+Barbara Walker,311,233,2024-01-30,Leigh Lynch,65,11,Sumatriptan,Triptan,11,Migraine,"Triptans; avoidance of triggers, regular sleep patterns"
+Jodie Roberts,557,262,2024-03-25,Gordon Wright,54,11,Sumatriptan,Triptan,11,Migraine,"Triptans; avoidance of triggers, regular sleep patterns"
+Annette Clarke,539,266,2023-04-19,Henry Lewis,41,11,Sumatriptan,Triptan,11,Migraine,"Triptans; avoidance of triggers, regular sleep patterns"
+Harriet Allen,21,279,2023-10-30,Maurice Hall,26,11,Sumatriptan,Triptan,11,Migraine,"Triptans; avoidance of triggers, regular sleep patterns"
+Stephen Harper Walters,31,342,2024-01-24,Debra Griffiths,93,11,Sumatriptan,Triptan,11,Migraine,"Triptans; avoidance of triggers, regular sleep patterns"
+Jean Brown,80,357,2024-02-24,Alexandra Richardson,55,11,Sumatriptan,Triptan,11,Migraine,"Triptans; avoidance of triggers, regular sleep patterns"
+Charlie Dawson-Scott,515,386,2024-10-15,Maurice Roberts,97,11,Sumatriptan,Triptan,11,Migraine,"Triptans; avoidance of triggers, regular sleep patterns"
+Graham Bowen,419,464,2023-08-26,Victor Evans,66,11,Sumatriptan,Triptan,11,Migraine,"Triptans; avoidance of triggers, regular sleep patterns"
+Antony Hilton,234,470,2023-11-05,Sandra Pearson,86,11,Sumatriptan,Triptan,11,Migraine,"Triptans; avoidance of triggers, regular sleep patterns"
+Fiona Watkins,138,471,2023-02-25,Eileen Hewitt,94,11,Sumatriptan,Triptan,11,Migraine,"Triptans; avoidance of triggers, regular sleep patterns"
+Leah Byrne-Clark,203,44,2024-02-13,Philip Stephenson,80,12,Ferrous sulfate,Iron supplement,12,Anemia,Iron supplements; dietary adjustments
+Pamela Hall-Robinson,28,48,2024-03-06,Jessica Brown,68,12,Ferrous sulfate,Iron supplement,12,Anemia,Iron supplements; dietary adjustments
+Donna Wallace,186,67,2023-09-16,Victor Evans,66,12,Ferrous sulfate,Iron supplement,12,Anemia,Iron supplements; dietary adjustments
+Caroline Quinn Dixon,164,94,2024-02-26,Roy Yates,40,12,Ferrous sulfate,Iron supplement,12,Anemia,Iron supplements; dietary adjustments
+Cameron Taylor Knowles,586,110,2023-01-15,Jason Roberts,21,12,Ferrous sulfate,Iron supplement,12,Anemia,Iron supplements; dietary adjustments
+Michael Wade,325,113,2024-04-03,Emma Brooks,57,12,Ferrous sulfate,Iron supplement,12,Anemia,Iron supplements; dietary adjustments
+Ryan Hardy,443,136,2024-06-30,Debra Griffiths,93,12,Ferrous sulfate,Iron supplement,12,Anemia,Iron supplements; dietary adjustments
+Arthur Dylan Baker,483,192,2023-03-03,Jessica Brown,68,12,Ferrous sulfate,Iron supplement,12,Anemia,Iron supplements; dietary adjustments
+Kate Jordan Patel,495,230,2024-04-08,Irene Wright,36,12,Ferrous sulfate,Iron supplement,12,Anemia,Iron supplements; dietary adjustments
+Julian Cox,541,238,2024-01-28,Andrea Mitchell,61,12,Ferrous sulfate,Iron supplement,12,Anemia,Iron supplements; dietary adjustments
+Ann Nelson,593,281,2023-02-04,Lisa Bennett,90,12,Ferrous sulfate,Iron supplement,12,Anemia,Iron supplements; dietary adjustments
+Terry Webb-Mitchell,576,283,2023-11-26,Bryan Jones,87,12,Ferrous sulfate,Iron supplement,12,Anemia,Iron supplements; dietary adjustments
+Debra Porter,552,297,2023-05-02,Lauren White,96,12,Ferrous sulfate,Iron supplement,12,Anemia,Iron supplements; dietary adjustments
+Jodie Roberts,557,329,2023-04-22,Gordon Wright,54,12,Ferrous sulfate,Iron supplement,12,Anemia,Iron supplements; dietary adjustments
+Dawn Woods,334,409,2023-03-05,Rosie O'Connor,45,12,Ferrous sulfate,Iron supplement,12,Anemia,Iron supplements; dietary adjustments
+Antony Elliot Baxter-Parker,389,427,2023-12-20,Nigel James,24,12,Ferrous sulfate,Iron supplement,12,Anemia,Iron supplements; dietary adjustments
+Chloe Cole,581,469,2023-08-09,Kieran Ford,47,12,Ferrous sulfate,Iron supplement,12,Anemia,Iron supplements; dietary adjustments
+Rhys O'Neill,555,52,2023-04-17,Michael Scott,64,13,Simvastatin,Statin,13,Hyperlipidemia,Statins; dietary changes
+Marc Garner,507,56,2023-08-19,Philip Cooper,59,13,Simvastatin,Statin,13,Hyperlipidemia,Statins; dietary changes
+Janice Reese Brown,295,82,2023-11-02,Rebecca Wheeler,52,13,Simvastatin,Statin,13,Hyperlipidemia,Statins; dietary changes
+Connor Barnett-Cooper,256,147,2024-04-13,Christopher Little,16,13,Simvastatin,Statin,13,Hyperlipidemia,Statins; dietary changes
+Mohammad Hunter-Ward,141,256,2023-08-16,Jasmine Frost,49,13,Simvastatin,Statin,13,Hyperlipidemia,Statins; dietary changes
+Francesca Hammond-Bennett,247,264,2024-09-01,Richard Sanders,91,13,Simvastatin,Statin,13,Hyperlipidemia,Statins; dietary changes
+Hazel Taylor Rees,110,363,2024-02-04,Philip Cooper,59,13,Simvastatin,Statin,13,Hyperlipidemia,Statins; dietary changes
+Kate Townsend-Scott,126,378,2024-11-17,Iain Davies,4,13,Simvastatin,Statin,13,Hyperlipidemia,Statins; dietary changes
+Christopher Arnold,87,442,2023-10-02,Henry Cooke,60,13,Simvastatin,Statin,13,Hyperlipidemia,Statins; dietary changes
+Kayleigh Davies-Clark,460,453,2024-02-15,Lawrence Curtis,22,13,Simvastatin,Statin,13,Hyperlipidemia,Statins; dietary changes
+Jean Cameron Chambers-Edwards,584,23,2023-12-18,Iain Davies,4,14,Levothyroxine,Thyroid hormone,14,Hypothyroidism,Thyroid hormone replacement
+Heather Casey Andrews,77,95,2023-05-19,Gerard Ali,89,14,Levothyroxine,Thyroid hormone,14,Hypothyroidism,Thyroid hormone replacement
+Marie O'Connor,566,145,2024-08-26,Christopher Little,16,14,Levothyroxine,Thyroid hormone,14,Hypothyroidism,Thyroid hormone replacement
+Gail Lambert,428,198,2024-06-17,Bethany Johnston,33,14,Levothyroxine,Thyroid hormone,14,Hypothyroidism,Thyroid hormone replacement
+Toby Riley Morris,45,222,2023-10-02,Andrea Mitchell,61,14,Levothyroxine,Thyroid hormone,14,Hypothyroidism,Thyroid hormone replacement
+Leonard Shaw,343,246,2024-11-10,Gerard Hill,8,14,Levothyroxine,Thyroid hormone,14,Hypothyroidism,Thyroid hormone replacement
+Carolyn Williamson,496,303,2024-05-21,Marcus Hart,58,14,Levothyroxine,Thyroid hormone,14,Hypothyroidism,Thyroid hormone replacement
+Kate Townsend-Scott,126,304,2024-05-18,Iain Davies,4,14,Levothyroxine,Thyroid hormone,14,Hypothyroidism,Thyroid hormone replacement
+Donald Logan Lyons,337,88,2023-01-23,Reece Jones,25,15,Adalimumab,Biologic,15,Psoriasis,Biologics; topical steroids
+Barbara Walker,311,105,2023-04-02,Leigh Lynch,65,15,Adalimumab,Biologic,15,Psoriasis,Biologics; topical steroids
+Frank Jordan White,9,150,2023-07-14,Jason Roberts,21,15,Adalimumab,Biologic,15,Psoriasis,Biologics; topical steroids
+Kirsty Riley Birch,213,158,2023-01-18,Simon Middleton,62,15,Adalimumab,Biologic,15,Psoriasis,Biologics; topical steroids
+Rita French-Cooper,171,179,2024-09-23,Glenn Armstrong,14,15,Adalimumab,Biologic,15,Psoriasis,Biologics; topical steroids
+Colin Taylor Jones,516,187,2023-06-22,Andrea Mitchell,61,15,Adalimumab,Biologic,15,Psoriasis,Biologics; topical steroids
+Gregory Woodward-Rogers,474,273,2023-12-16,Sally Nelson,29,15,Adalimumab,Biologic,15,Psoriasis,Biologics; topical steroids
+Robin Bradley,201,287,2023-10-22,Gordon Mistry,63,15,Adalimumab,Biologic,15,Psoriasis,Biologics; topical steroids
+Cheryl Jamie James-Adams,40,31,2023-04-24,Raymond Green,84,16,Risperidone,Antipsychotic,16,Schizophrenia,Antipsychotics; psychotherapy
+Frederick Humphries,207,63,2023-07-16,Robin Jones,44,16,Risperidone,Antipsychotic,16,Schizophrenia,Antipsychotics; psychotherapy
+Stacey Dylan Smith,544,80,2023-06-19,Ben Cook,71,16,Risperidone,Antipsychotic,16,Schizophrenia,Antipsychotics; psychotherapy
+Alexandra Berry,592,96,2024-01-06,Rita Smith,85,16,Risperidone,Antipsychotic,16,Schizophrenia,Antipsychotics; psychotherapy
+Stuart Gill-Bennett,398,119,2024-05-21,Stuart Kemp,99,16,Risperidone,Antipsychotic,16,Schizophrenia,Antipsychotics; psychotherapy
+Glen Fraser-Harris,14,447,2023-08-09,Nigel James,24,16,Risperidone,Antipsychotic,16,Schizophrenia,Antipsychotics; psychotherapy
+Amelia Alex Thompson,451,12,2024-02-01,Reece Graham,6,17,Lithium,Mood stabilizer,17,Bipolar Disorder,Mood stabilizers; psychoeducation
+Thomas Bolton-Gray,283,36,2024-04-27,Tracey Gardner,11,17,Lithium,Mood stabilizer,17,Bipolar Disorder,Mood stabilizers; psychoeducation
+Mark Lewis,29,237,2024-06-15,Henry Lewis,41,17,Lithium,Mood stabilizer,17,Bipolar Disorder,Mood stabilizers; psychoeducation
+Ross Miah-Clark,153,259,2023-03-01,Leah Watson,9,17,Lithium,Mood stabilizer,17,Bipolar Disorder,Mood stabilizers; psychoeducation
+June Sykes-Collins,356,275,2023-11-20,Stuart Kemp,99,17,Lithium,Mood stabilizer,17,Bipolar Disorder,Mood stabilizers; psychoeducation
+Bernard Baker-Scott,374,317,2023-09-03,Gail Hammond,50,17,Lithium,Mood stabilizer,17,Bipolar Disorder,Mood stabilizers; psychoeducation
+Maria Morris,505,452,2024-02-03,Abigail Gardiner,73,17,Lithium,Mood stabilizer,17,Bipolar Disorder,Mood stabilizers; psychoeducation
+Jake Riley Ingram,452,79,2023-01-31,Kelly Cook,27,18,Infliximab,Immunosuppressant,19,Crohn's Disease,Biologics; dietary management
+Julie Brown,436,103,2023-02-05,Robin Jones,44,18,Infliximab,Immunosuppressant,19,Crohn's Disease,Biologics; dietary management
+Lewis Taylor,513,177,2023-06-03,Joanne Cooke,10,18,Infliximab,Immunosuppressant,19,Crohn's Disease,Biologics; dietary management
+Duncan French-Morris,574,219,2023-09-02,Rebecca Wheeler,52,18,Infliximab,Immunosuppressant,19,Crohn's Disease,Biologics; dietary management
+Christine Smith-Collins,410,286,2023-06-14,Lawrence Curtis,22,18,Infliximab,Immunosuppressant,19,Crohn's Disease,Biologics; dietary management
+Josh Davies,154,348,2023-06-25,Paige Barker,82,18,Infliximab,Immunosuppressant,19,Crohn's Disease,Biologics; dietary management
+Carl Barrett,553,496,2023-06-17,Jasmine Frost,49,18,Infliximab,Immunosuppressant,19,Crohn's Disease,Biologics; dietary management
+Kayleigh Davies-Clark,460,93,2024-09-24,Lawrence Curtis,22,19,Mesalamine,Aminosalicylate,20,Ulcerative Colitis,Aminosalicylates; colectomy for severe cases
+Jenna Smith,263,118,2023-12-30,Lawrence Brown,3,19,Mesalamine,Aminosalicylate,20,Ulcerative Colitis,Aminosalicylates; colectomy for severe cases
+Mohammed Oliver-Bennett,232,159,2024-12-26,Melissa Perkins,92,19,Mesalamine,Aminosalicylate,20,Ulcerative Colitis,Aminosalicylates; colectomy for severe cases
+Megan Patel-Harris,502,227,2024-12-06,Alexandra Richardson,55,19,Mesalamine,Aminosalicylate,20,Ulcerative Colitis,Aminosalicylates; colectomy for severe cases
+Kirsty Riley Birch,213,269,2023-01-27,Simon Middleton,62,19,Mesalamine,Aminosalicylate,20,Ulcerative Colitis,Aminosalicylates; colectomy for severe cases
+Holly Bailey,404,301,2023-04-07,Janice Reid,88,19,Mesalamine,Aminosalicylate,20,Ulcerative Colitis,Aminosalicylates; colectomy for severe cases
+Fiona Rowe,5,474,2024-05-27,Jasmine Williams,76,19,Mesalamine,Aminosalicylate,20,Ulcerative Colitis,Aminosalicylates; colectomy for severe cases
+Jay Brady-Harris,115,490,2023-04-30,Irene Wright,36,19,Mesalamine,Aminosalicylate,20,Ulcerative Colitis,Aminosalicylates; colectomy for severe cases
+Marc Brennan,595,13,2023-12-24,Simon Webb,43,20,Entecavir,Antiviral,21,Hepatitis B,Antiviral medication; liver function monitoring
+Sharon Finley Harrison,477,35,2024-05-23,Tracey Robson,79,20,Entecavir,Antiviral,21,Hepatitis B,Antiviral medication; liver function monitoring
+Patricia Woods,152,129,2024-01-31,Christopher Little,16,20,Entecavir,Antiviral,21,Hepatitis B,Antiviral medication; liver function monitoring
+Jade Gregory,243,141,2024-10-10,Janet Preston,12,20,Entecavir,Antiviral,21,Hepatitis B,Antiviral medication; liver function monitoring
+Irene Hodgson-Robinson,175,161,2023-02-19,June Kaur,2,20,Entecavir,Antiviral,21,Hepatitis B,Antiviral medication; liver function monitoring
+Victoria Gibson,258,247,2023-01-29,Glenn Armstrong,14,20,Entecavir,Antiviral,21,Hepatitis B,Antiviral medication; liver function monitoring
+Mohammed Jones,376,282,2023-07-10,Eileen Hewitt,94,20,Entecavir,Antiviral,21,Hepatitis B,Antiviral medication; liver function monitoring
+Charlie Peyton Edwards,290,288,2023-12-12,Vincent Saunders,70,20,Entecavir,Antiviral,21,Hepatitis B,Antiviral medication; liver function monitoring
+Kenneth Reese Freeman,417,298,2024-01-11,Bryan Jones,87,20,Entecavir,Antiviral,21,Hepatitis B,Antiviral medication; liver function monitoring
+Jennifer Smith,266,318,2023-01-03,Roy Yates,40,20,Entecavir,Antiviral,21,Hepatitis B,Antiviral medication; liver function monitoring
+Anne Greenwood-Taylor,537,323,2023-05-01,Claire Cross,75,20,Entecavir,Antiviral,21,Hepatitis B,Antiviral medication; liver function monitoring
+Jeffrey Elliot Stevenson,393,380,2024-11-24,Mandy White,38,20,Entecavir,Antiviral,21,Hepatitis B,Antiviral medication; liver function monitoring
+Leanne Higgins,385,439,2024-07-06,Gerard Hill,8,20,Entecavir,Antiviral,21,Hepatitis B,Antiviral medication; liver function monitoring
+Trevor Walton,563,465,2024-05-04,Paige Thomas,69,20,Entecavir,Antiviral,21,Hepatitis B,Antiviral medication; liver function monitoring
+Emily Webster,209,9,2023-07-18,Max Knight,20,21,Sofosbuvir,Antiviral,22,Hepatitis C,Direct-acting antivirals; avoid alcohol
+Leonard Shaw,343,47,2023-05-30,Gerard Hill,8,21,Sofosbuvir,Antiviral,22,Hepatitis C,Direct-acting antivirals; avoid alcohol
+Bernard Rowan Williams,192,60,2023-10-04,Jessica Brown,68,21,Sofosbuvir,Antiviral,22,Hepatitis C,Direct-acting antivirals; avoid alcohol
+Harriet Allen,21,115,2024-03-07,Maurice Hall,26,21,Sofosbuvir,Antiviral,22,Hepatitis C,Direct-acting antivirals; avoid alcohol
+Gemma Jenkins-Mitchell,532,174,2023-01-12,Rebecca Nicholls,53,21,Sofosbuvir,Antiviral,22,Hepatitis C,Direct-acting antivirals; avoid alcohol
+Kim Andrews,384,416,2024-05-30,Sara Smith,30,21,Sofosbuvir,Antiviral,22,Hepatitis C,Direct-acting antivirals; avoid alcohol
+Joyce Alex Murphy-Bell,524,424,2024-11-24,Lewis Fletcher,39,21,Sofosbuvir,Antiviral,22,Hepatitis C,Direct-acting antivirals; avoid alcohol
+Leonard Perkins-Harris,407,480,2024-05-07,Lesley Yates,31,21,Sofosbuvir,Antiviral,22,Hepatitis C,Direct-acting antivirals; avoid alcohol
+Tracy Lamb,397,30,2023-01-19,Carl James,81,22,Rifampin,Antitubercular,23,Tuberculosis,Antitubercular drugs; adherence to long-term therapy
+Brandon Jones,7,41,2023-07-17,Christopher Little,16,22,Rifampin,Antitubercular,23,Tuberculosis,Antitubercular drugs; adherence to long-term therapy
+Hazel Taylor Rees,110,62,2024-04-18,Philip Cooper,59,22,Rifampin,Antitubercular,23,Tuberculosis,Antitubercular drugs; adherence to long-term therapy
+Frederick Humphries,207,163,2024-06-06,Robin Jones,44,22,Rifampin,Antitubercular,23,Tuberculosis,Antitubercular drugs; adherence to long-term therapy
+Alan Avery Newman,264,255,2023-06-30,Emma Brooks,57,22,Rifampin,Antitubercular,23,Tuberculosis,Antitubercular drugs; adherence to long-term therapy
+Joanne Poole,11,284,2024-12-19,Henry Lewis,41,22,Rifampin,Antitubercular,23,Tuberculosis,Antitubercular drugs; adherence to long-term therapy
+Katherine Richardson,401,294,2024-12-22,Philip Cooper,59,22,Rifampin,Antitubercular,23,Tuberculosis,Antitubercular drugs; adherence to long-term therapy
+Kayleigh Davies-Clark,460,305,2023-09-30,Lawrence Curtis,22,22,Rifampin,Antitubercular,23,Tuberculosis,Antitubercular drugs; adherence to long-term therapy
+Leslie Winter,580,337,2023-06-12,Andrea Mitchell,61,22,Rifampin,Antitubercular,23,Tuberculosis,Antitubercular drugs; adherence to long-term therapy
+Judith Reese Parker,564,371,2023-02-28,Adam Clarke,5,22,Rifampin,Antitubercular,23,Tuberculosis,Antitubercular drugs; adherence to long-term therapy
+Suzanne Thompson-Harris,116,382,2024-01-06,Mandy White,38,22,Rifampin,Antitubercular,23,Tuberculosis,Antitubercular drugs; adherence to long-term therapy
+Alice Taylor Singh,292,400,2023-03-23,Sara Smith,30,22,Rifampin,Antitubercular,23,Tuberculosis,Antitubercular drugs; adherence to long-term therapy
+Carl Pearson,439,413,2023-12-14,Lauren White,96,22,Rifampin,Antitubercular,23,Tuberculosis,Antitubercular drugs; adherence to long-term therapy
+Karen Crawford-Morris,42,27,2024-07-21,Mandy White,38,23,Tenofovir,Antiviral,24,HIV/AIDS,Antiretroviral therapy; regular viral load monitoring
+Molly Holloway-Bennett,166,40,2023-10-12,Rebecca Wheeler,52,23,Tenofovir,Antiviral,24,HIV/AIDS,Antiretroviral therapy; regular viral load monitoring
+Lindsey Davies,142,144,2023-12-15,Rosie O'Connor,45,23,Tenofovir,Antiviral,24,HIV/AIDS,Antiretroviral therapy; regular viral load monitoring
+Antony Lyons,366,169,2024-11-26,Frederick Mann,19,23,Tenofovir,Antiviral,24,HIV/AIDS,Antiretroviral therapy; regular viral load monitoring
+Lucy Jenkins,188,244,2023-04-08,Craig Green,67,23,Tenofovir,Antiviral,24,HIV/AIDS,Antiretroviral therapy; regular viral load monitoring
+Naomi Morgan Kay,61,320,2023-10-28,Julie Smith,78,23,Tenofovir,Antiviral,24,HIV/AIDS,Antiretroviral therapy; regular viral load monitoring
+Kayleigh Davies-Clark,460,353,2024-08-05,Lawrence Curtis,22,23,Tenofovir,Antiviral,24,HIV/AIDS,Antiretroviral therapy; regular viral load monitoring
+Adrian Barnes-Scott,293,359,2023-02-10,Maurice Roberts,97,23,Tenofovir,Antiviral,24,HIV/AIDS,Antiretroviral therapy; regular viral load monitoring
+Sian Burgess,159,365,2023-03-22,Philip Stephenson,80,23,Tenofovir,Antiviral,24,HIV/AIDS,Antiretroviral therapy; regular viral load monitoring
+Michelle Sutton,414,368,2024-06-03,Maurice Hall,26,23,Tenofovir,Antiviral,24,HIV/AIDS,Antiretroviral therapy; regular viral load monitoring
+Richard Morton,522,383,2023-02-03,Rita Smith,85,23,Tenofovir,Antiviral,24,HIV/AIDS,Antiretroviral therapy; regular viral load monitoring
+Leigh Reese Field,30,451,2024-01-19,Carl James,81,23,Tenofovir,Antiviral,24,HIV/AIDS,Antiretroviral therapy; regular viral load monitoring
+Paula Casey Holmes,147,57,2023-09-24,Sheila Gardiner,72,24,Hydroxychloroquine,Immunosuppressant,25,Lupus,Immunosuppressants; regular check-ups
+Maurice White,2,171,2024-10-14,Eleanor Finch,42,24,Hydroxychloroquine,Immunosuppressant,25,Lupus,Immunosuppressants; regular check-ups
+George Pearson,46,235,2023-11-01,Lawrence Brown,3,24,Hydroxychloroquine,Immunosuppressant,25,Lupus,Immunosuppressants; regular check-ups
+Joanna Jordan Miller,481,377,2023-02-07,Rebecca Nicholls,53,24,Hydroxychloroquine,Immunosuppressant,25,Lupus,Immunosuppressants; regular check-ups
+Adrian Robinson,75,482,2023-07-22,Paige Barker,82,24,Hydroxychloroquine,Immunosuppressant,25,Lupus,Immunosuppressants; regular check-ups
+Damien Taylor,118,32,2023-07-08,Caroline Bond,51,25,Interferon beta,Disease-modifying therapy,26,Multiple Sclerosis,Disease-modifying therapies; physical therapy
+Lynne Jamie Kaur,218,38,2024-05-20,Bethany Johnston,33,25,Interferon beta,Disease-modifying therapy,26,Multiple Sclerosis,Disease-modifying therapies; physical therapy
+Abdul Harrison-Bell,208,120,2023-10-02,Lucy Norris,74,25,Interferon beta,Disease-modifying therapy,26,Multiple Sclerosis,Disease-modifying therapies; physical therapy
+Christopher Arnold,87,185,2023-09-23,Henry Cooke,60,25,Interferon beta,Disease-modifying therapy,26,Multiple Sclerosis,Disease-modifying therapies; physical therapy
+Suzanne Tyler,219,232,2024-01-21,Bethany Johnston,33,25,Interferon beta,Disease-modifying therapy,26,Multiple Sclerosis,Disease-modifying therapies; physical therapy
+Marie O'Connor,566,253,2024-09-21,Christopher Little,16,25,Interferon beta,Disease-modifying therapy,26,Multiple Sclerosis,Disease-modifying therapies; physical therapy
+Jordan Harding,47,272,2023-08-19,Rachel Parkinson,100,25,Interferon beta,Disease-modifying therapy,26,Multiple Sclerosis,Disease-modifying therapies; physical therapy
+Suzanne Tyler,219,327,2023-12-28,Bethany Johnston,33,25,Interferon beta,Disease-modifying therapy,26,Multiple Sclerosis,Disease-modifying therapies; physical therapy
+Emma Alex Harrison-Adams,468,373,2024-11-01,Rebecca Nicholls,53,25,Interferon beta,Disease-modifying therapy,26,Multiple Sclerosis,Disease-modifying therapies; physical therapy
+Laura Brown,392,374,2023-01-19,Eleanor Finch,42,25,Interferon beta,Disease-modifying therapy,26,Multiple Sclerosis,Disease-modifying therapies; physical therapy
+Jessica Gibson,297,388,2024-10-18,Janet Preston,12,25,Interferon beta,Disease-modifying therapy,26,Multiple Sclerosis,Disease-modifying therapies; physical therapy
+Roy James,287,419,2024-06-01,Reece Jones,25,25,Interferon beta,Disease-modifying therapy,26,Multiple Sclerosis,Disease-modifying therapies; physical therapy
+Carolyn Williamson,496,448,2023-02-05,Marcus Hart,58,25,Interferon beta,Disease-modifying therapy,26,Multiple Sclerosis,Disease-modifying therapies; physical therapy
+Ross Ali,96,5,2024-10-31,Albert Jones,34,26,Furosemide,Diuretic,27,Kidney Disease,Diuretics; blood pressure control
+Ross Miah-Clark,153,55,2024-08-22,Leah Watson,9,26,Furosemide,Diuretic,27,Kidney Disease,Diuretics; blood pressure control
+Carly Young,137,66,2024-10-30,Janice Reid,88,26,Furosemide,Diuretic,27,Kidney Disease,Diuretics; blood pressure control
+Marc Stanley,535,140,2023-02-18,Stuart Kemp,99,26,Furosemide,Diuretic,27,Kidney Disease,Diuretics; blood pressure control
+Connor Barnett-Cooper,256,176,2023-03-18,Christopher Little,16,26,Furosemide,Diuretic,27,Kidney Disease,Diuretics; blood pressure control
+Eileen Lee-Morris,38,263,2023-09-11,Irene Wright,36,26,Furosemide,Diuretic,27,Kidney Disease,Diuretics; blood pressure control
+Hugh Davis,41,295,2023-05-22,Albert Jones,34,26,Furosemide,Diuretic,27,Kidney Disease,Diuretics; blood pressure control
+Nigel Rahman,294,310,2024-09-19,Gordon Mistry,63,26,Furosemide,Diuretic,27,Kidney Disease,Diuretics; blood pressure control
+Clare Collins,68,328,2024-12-27,Arthur Morris,83,26,Furosemide,Diuretic,27,Kidney Disease,Diuretics; blood pressure control
+Carl Davies,73,341,2024-06-10,Henry Cooke,60,26,Furosemide,Diuretic,27,Kidney Disease,Diuretics; blood pressure control
+Fiona Rowe,5,384,2023-01-23,Jasmine Williams,76,26,Furosemide,Diuretic,27,Kidney Disease,Diuretics; blood pressure control
+Francesca Hammond-Bennett,247,14,2023-08-13,Richard Sanders,91,27,Leuprolide,Hormonal therapy,28,Prostate Cancer,Hormone therapy; radiation therapy
+Marcus Hodgson,284,72,2023-11-19,Paige Barker,82,27,Leuprolide,Hormonal therapy,28,Prostate Cancer,Hormone therapy; radiation therapy
+Holly Bailey,404,175,2024-06-16,Janice Reid,88,27,Leuprolide,Hormonal therapy,28,Prostate Cancer,Hormone therapy; radiation therapy
+Gordon McLean,427,183,2023-06-16,Marcus Harris,15,27,Leuprolide,Hormonal therapy,28,Prostate Cancer,Hormone therapy; radiation therapy
+Anne Dakota McCarthy,114,186,2024-04-28,Jason Roberts,21,27,Leuprolide,Hormonal therapy,28,Prostate Cancer,Hormone therapy; radiation therapy
+Max Bartlett,150,220,2024-11-24,Philip Stephenson,80,27,Leuprolide,Hormonal therapy,28,Prostate Cancer,Hormone therapy; radiation therapy
+Scott Davies-Morris,63,265,2024-05-07,Chloe Law,37,27,Leuprolide,Hormonal therapy,28,Prostate Cancer,Hormone therapy; radiation therapy
+Lindsey Davies,142,312,2024-02-21,Rosie O'Connor,45,27,Leuprolide,Hormonal therapy,28,Prostate Cancer,Hormone therapy; radiation therapy
+Damien Riley Bates,223,352,2023-02-08,Paige Thomas,69,27,Leuprolide,Hormonal therapy,28,Prostate Cancer,Hormone therapy; radiation therapy
+Gregory Harper Allen-Ward,119,391,2024-10-07,Sandra Pearson,86,27,Leuprolide,Hormonal therapy,28,Prostate Cancer,Hormone therapy; radiation therapy
+Amelia Jamie Clarke-Bennett,222,463,2023-09-16,Marian Davidson,18,27,Leuprolide,Hormonal therapy,28,Prostate Cancer,Hormone therapy; radiation therapy
+Julian Cox,541,20,2023-12-17,Andrea Mitchell,61,28,Tamoxifen,Hormonal therapy,29,Breast Cancer,Hormonal therapy; chemotherapy
+Jeffrey Payne,229,153,2023-06-26,Ben Cook,71,28,Tamoxifen,Hormonal therapy,29,Breast Cancer,Hormonal therapy; chemotherapy
+Douglas Peyton Green,339,242,2023-10-18,Marcus Hart,58,28,Tamoxifen,Hormonal therapy,29,Breast Cancer,Hormonal therapy; chemotherapy
+Lindsey Avery Connor,97,249,2024-11-17,Gerard Ali,89,28,Tamoxifen,Hormonal therapy,29,Breast Cancer,Hormonal therapy; chemotherapy
+Tracy Lamb,397,277,2024-06-02,Carl James,81,28,Tamoxifen,Hormonal therapy,29,Breast Cancer,Hormonal therapy; chemotherapy
+George Peyton Murray-Gray,509,423,2023-05-31,Michael Scott,64,28,Tamoxifen,Hormonal therapy,29,Breast Cancer,Hormonal therapy; chemotherapy
+Alice Jordan Cook,597,111,2023-06-22,Janice Reid,88,29,Imiquimod,Topical therapy,30,Skin Cancer,Topical therapy; surgical excision for severe cases
+Graeme Reese Bull,510,250,2023-12-30,Georgia Barlow,95,29,Imiquimod,Topical therapy,30,Skin Cancer,Topical therapy; surgical excision for severe cases
+Lynn Harper White,542,254,2023-05-17,Andrea Mitchell,61,29,Imiquimod,Topical therapy,30,Skin Cancer,Topical therapy; surgical excision for severe cases
+Abigail Edwards,51,260,2023-08-16,Gerard Hill,8,29,Imiquimod,Topical therapy,30,Skin Cancer,Topical therapy; surgical excision for severe cases
+Geoffrey Brown-Morris,480,270,2023-12-09,Michael Scott,64,29,Imiquimod,Topical therapy,30,Skin Cancer,Topical therapy; surgical excision for severe cases
+Charlie Dawson-Scott,515,271,2024-02-13,Maurice Roberts,97,29,Imiquimod,Topical therapy,30,Skin Cancer,Topical therapy; surgical excision for severe cases
+Eileen Lee-Morris,38,334,2024-03-15,Irene Wright,36,29,Imiquimod,Topical therapy,30,Skin Cancer,Topical therapy; surgical excision for severe cases
+Gregory Harper Allen-Ward,119,379,2024-11-06,Sandra Pearson,86,29,Imiquimod,Topical therapy,30,Skin Cancer,Topical therapy; surgical excision for severe cases
+Mary O'Connor,455,397,2023-05-05,Kieran Ford,47,29,Imiquimod,Topical therapy,30,Skin Cancer,Topical therapy; surgical excision for severe cases
+James Casey Norris,172,404,2024-01-03,Richard Patel,23,29,Imiquimod,Topical therapy,30,Skin Cancer,Topical therapy; surgical excision for severe cases
+Beth Sheppard,261,406,2023-05-06,Reece Jones,25,29,Imiquimod,Topical therapy,30,Skin Cancer,Topical therapy; surgical excision for severe cases
+Lynne Williams,463,492,2024-07-28,Leigh Lynch,65,29,Imiquimod,Topical therapy,30,Skin Cancer,Topical therapy; surgical excision for severe cases
+Joanne Poole,11,104,2023-07-14,Henry Lewis,41,30,Alendronate,Bisphosphonate,31,Osteoporosis,Bisphosphonates; calcium and vitamin D supplementation
+Melissa Horton,143,133,2024-07-02,Melissa Perkins,92,30,Alendronate,Bisphosphonate,31,Osteoporosis,Bisphosphonates; calcium and vitamin D supplementation
+Hazel Taylor Rees,110,168,2023-03-08,Philip Cooper,59,30,Alendronate,Bisphosphonate,31,Osteoporosis,Bisphosphonates; calcium and vitamin D supplementation
+Clare Frost,520,190,2024-05-17,Sally Nelson,29,30,Alendronate,Bisphosphonate,31,Osteoporosis,Bisphosphonates; calcium and vitamin D supplementation
+Sean Grant,140,225,2024-10-27,Julie Smith,78,30,Alendronate,Bisphosphonate,31,Osteoporosis,Bisphosphonates; calcium and vitamin D supplementation
+Lorraine Taylor-Bell,429,245,2024-08-11,Lisa Bennett,90,30,Alendronate,Bisphosphonate,31,Osteoporosis,Bisphosphonates; calcium and vitamin D supplementation
+Patrick Alex Ellis,132,340,2023-01-28,Sheila Gardiner,72,30,Alendronate,Bisphosphonate,31,Osteoporosis,Bisphosphonates; calcium and vitamin D supplementation
+Leanne Higgins,385,349,2023-02-19,Gerard Hill,8,30,Alendronate,Bisphosphonate,31,Osteoporosis,Bisphosphonates; calcium and vitamin D supplementation
+Graeme Thompson,445,396,2023-05-07,Reece Graham,6,30,Alendronate,Bisphosphonate,31,Osteoporosis,Bisphosphonates; calcium and vitamin D supplementation
+Craig Riley Cook,387,434,2024-07-21,Iain Davies,4,30,Alendronate,Bisphosphonate,31,Osteoporosis,Bisphosphonates; calcium and vitamin D supplementation
+Donald Logan Lyons,337,484,2023-11-09,Reece Jones,25,30,Alendronate,Bisphosphonate,31,Osteoporosis,Bisphosphonates; calcium and vitamin D supplementation
+Albert Richards,353,493,2023-08-20,Nigel James,24,30,Alendronate,Bisphosphonate,31,Osteoporosis,Bisphosphonates; calcium and vitamin D supplementation
+Robert Curtis,227,77,2024-07-28,Caroline Bond,51,31,Amoxicillin,Antibiotic,32,Pneumonia,Antibiotics; oxygen therapy if needed
+Robin Bradley,201,170,2024-03-01,Gordon Mistry,63,31,Amoxicillin,Antibiotic,32,Pneumonia,Antibiotics; oxygen therapy if needed
+Graeme Thompson,445,296,2024-04-01,Reece Graham,6,31,Amoxicillin,Antibiotic,32,Pneumonia,Antibiotics; oxygen therapy if needed
+Kim Andrews,384,335,2024-09-17,Sara Smith,30,31,Amoxicillin,Antibiotic,32,Pneumonia,Antibiotics; oxygen therapy if needed
+Megan Griffiths,458,499,2024-10-30,Gerard Ali,89,31,Amoxicillin,Antibiotic,32,Pneumonia,Antibiotics; oxygen therapy if needed
+Frederick Bates,10,26,2023-01-09,Marcus Harris,15,32,Acetaminophen,Analgesic,33,Dengue Fever,Supportive care; hydration therapy
+Abdul Harrison-Bell,208,53,2024-02-05,Lucy Norris,74,32,Acetaminophen,Analgesic,33,Dengue Fever,Supportive care; hydration therapy
+Maurice Taylor Francis,262,99,2024-05-11,June Kaur,2,32,Acetaminophen,Analgesic,33,Dengue Fever,Supportive care; hydration therapy
+Olivia Quinn,569,142,2023-06-07,Raymond Green,84,32,Acetaminophen,Analgesic,33,Dengue Fever,Supportive care; hydration therapy
+Diane Haynes,526,257,2023-04-22,Craig Green,67,32,Acetaminophen,Analgesic,33,Dengue Fever,Supportive care; hydration therapy
+Mohammed Owen-Morgan,129,280,2023-12-27,Lawrence Brown,3,32,Acetaminophen,Analgesic,33,Dengue Fever,Supportive care; hydration therapy
+Joan Skyler Knowles,235,330,2024-02-07,Lawrence Curtis,22,32,Acetaminophen,Analgesic,33,Dengue Fever,Supportive care; hydration therapy
+Mathew Wood,476,401,2023-11-28,Victor Evans,66,32,Acetaminophen,Analgesic,33,Dengue Fever,Supportive care; hydration therapy
+Suzanne Logan Davis,314,61,2023-01-06,Gordon Wright,54,33,Artemether,Antimalarial,34,Malaria,Antimalarial drugs; insecticide-treated nets
+Eileen Holmes-Mitchell,319,73,2024-12-28,Lucy Norris,74,33,Artemether,Antimalarial,34,Malaria,Antimalarial drugs; insecticide-treated nets
+Geoffrey Brown-Morris,480,84,2023-08-22,Michael Scott,64,33,Artemether,Antimalarial,34,Malaria,Antimalarial drugs; insecticide-treated nets
+Dean Riley Williams,415,92,2024-05-30,Chloe Law,37,33,Artemether,Antimalarial,34,Malaria,Antimalarial drugs; insecticide-treated nets
+Sarah Riley Fox,578,98,2023-06-09,Bryan Jones,87,33,Artemether,Antimalarial,34,Malaria,Antimalarial drugs; insecticide-treated nets
+Craig Riley Cook,387,128,2023-07-13,Iain Davies,4,33,Artemether,Antimalarial,34,Malaria,Antimalarial drugs; insecticide-treated nets
+Louise Lowe,242,214,2023-10-16,Sara Smith,30,33,Artemether,Antimalarial,34,Malaria,Antimalarial drugs; insecticide-treated nets
+Maurice Taylor Francis,262,292,2024-03-28,June Kaur,2,33,Artemether,Antimalarial,34,Malaria,Antimalarial drugs; insecticide-treated nets
+Simon Ward,570,346,2023-10-19,Jasmine Frost,49,33,Artemether,Antimalarial,34,Malaria,Antimalarial drugs; insecticide-treated nets
+Toby Alex Williams-Morris,272,354,2023-08-12,Abigail Gardiner,73,33,Artemether,Antimalarial,34,Malaria,Antimalarial drugs; insecticide-treated nets
+Jack Baker,183,431,2023-12-30,Jasmine Williams,76,33,Artemether,Antimalarial,34,Malaria,Antimalarial drugs; insecticide-treated nets
+Diane Haynes,526,444,2024-11-13,Craig Green,67,33,Artemether,Antimalarial,34,Malaria,Antimalarial drugs; insecticide-treated nets
+Nicole Morgan Jones,422,449,2024-09-02,Sally Nelson,29,33,Artemether,Antimalarial,34,Malaria,Antimalarial drugs; insecticide-treated nets
+Clifford Williams,300,3,2024-07-26,Lewis Bevan,7,34,Ciprofloxacin,Antibiotic,35,Typhoid Fever,Antibiotics; fluid replacement therapy
+Caroline Quinn Dixon,164,152,2024-12-25,Roy Yates,40,34,Ciprofloxacin,Antibiotic,35,Typhoid Fever,Antibiotics; fluid replacement therapy
+Gemma Jenkins-Mitchell,532,206,2023-11-12,Rebecca Nicholls,53,34,Ciprofloxacin,Antibiotic,35,Typhoid Fever,Antibiotics; fluid replacement therapy
+Holly Bailey,404,251,2023-09-15,Janice Reid,88,34,Ciprofloxacin,Antibiotic,35,Typhoid Fever,Antibiotics; fluid replacement therapy
+Louis Atkinson,108,309,2024-04-22,Reece Graham,6,34,Ciprofloxacin,Antibiotic,35,Typhoid Fever,Antibiotics; fluid replacement therapy
+Elaine Knight,473,446,2023-03-19,Kelly Cook,27,34,Ciprofloxacin,Antibiotic,35,Typhoid Fever,Antibiotics; fluid replacement therapy
+Judith Hart,231,473,2024-01-12,Jasmine Frost,49,34,Ciprofloxacin,Antibiotic,35,Typhoid Fever,Antibiotics; fluid replacement therapy
+Clifford Williams,300,3,2024-07-26,Lewis Bevan,7,34,Ciprofloxacin,Antibiotic,43,Anthrax,Antibiotics; antitoxin therapy for severe cases
+Caroline Quinn Dixon,164,152,2024-12-25,Roy Yates,40,34,Ciprofloxacin,Antibiotic,43,Anthrax,Antibiotics; antitoxin therapy for severe cases
+Gemma Jenkins-Mitchell,532,206,2023-11-12,Rebecca Nicholls,53,34,Ciprofloxacin,Antibiotic,43,Anthrax,Antibiotics; antitoxin therapy for severe cases
+Holly Bailey,404,251,2023-09-15,Janice Reid,88,34,Ciprofloxacin,Antibiotic,43,Anthrax,Antibiotics; antitoxin therapy for severe cases
+Louis Atkinson,108,309,2024-04-22,Reece Graham,6,34,Ciprofloxacin,Antibiotic,43,Anthrax,Antibiotics; antitoxin therapy for severe cases
+Elaine Knight,473,446,2023-03-19,Kelly Cook,27,34,Ciprofloxacin,Antibiotic,43,Anthrax,Antibiotics; antitoxin therapy for severe cases
+Judith Hart,231,473,2024-01-12,Jasmine Frost,49,34,Ciprofloxacin,Antibiotic,43,Anthrax,Antibiotics; antitoxin therapy for severe cases
+Carly George-Robinson,590,85,2024-08-21,Lynn Collier,77,35,Zinc supplementation,Nutritional supplement,36,Cholera,Oral rehydration therapy; antibiotics if needed
+Francis Edwards,310,116,2023-08-30,Leah Watson,9,35,Zinc supplementation,Nutritional supplement,36,Cholera,Oral rehydration therapy; antibiotics if needed
+Graeme Thompson,445,134,2023-07-14,Reece Graham,6,35,Zinc supplementation,Nutritional supplement,36,Cholera,Oral rehydration therapy; antibiotics if needed
+Malcolm Wood,527,156,2023-04-02,Tracey Gardner,11,35,Zinc supplementation,Nutritional supplement,36,Cholera,Oral rehydration therapy; antibiotics if needed
+Dominic Rowan Sheppard-Harris,100,228,2023-06-06,Carl James,81,35,Zinc supplementation,Nutritional supplement,36,Cholera,Oral rehydration therapy; antibiotics if needed
+Joyce Barnes-Clark,34,229,2024-02-03,Adam Clarke,5,35,Zinc supplementation,Nutritional supplement,36,Cholera,Oral rehydration therapy; antibiotics if needed
+Mary Brown-Ward,323,248,2024-01-10,Lauren White,96,35,Zinc supplementation,Nutritional supplement,36,Cholera,Oral rehydration therapy; antibiotics if needed
+Frances Hale,217,278,2024-07-07,Bryan Jones,87,35,Zinc supplementation,Nutritional supplement,36,Cholera,Oral rehydration therapy; antibiotics if needed
+Kate Jordan Patel,495,300,2023-09-21,Irene Wright,36,35,Zinc supplementation,Nutritional supplement,36,Cholera,Oral rehydration therapy; antibiotics if needed
+Karen Lewis,285,435,2024-01-01,Simon Middleton,62,35,Zinc supplementation,Nutritional supplement,36,Cholera,Oral rehydration therapy; antibiotics if needed
+Emily Lawrence,565,46,2023-01-12,Gerard Ali,89,36,Dapsone,Antibiotic,37,Leprosy,Multidrug therapy; wound care
+Megan Griffiths,458,58,2023-12-11,Gerard Ali,89,36,Dapsone,Antibiotic,37,Leprosy,Multidrug therapy; wound care
+Malcolm Wood,527,157,2023-09-30,Tracey Gardner,11,36,Dapsone,Antibiotic,37,Leprosy,Multidrug therapy; wound care
+Emily Webster,209,213,2023-09-18,Max Knight,20,36,Dapsone,Antibiotic,37,Leprosy,Multidrug therapy; wound care
+Naomi Morgan Kay,61,215,2023-06-18,Julie Smith,78,36,Dapsone,Antibiotic,37,Leprosy,Multidrug therapy; wound care
+Gail Harper Edwards,588,276,2023-04-01,Irene Wright,36,36,Dapsone,Antibiotic,37,Leprosy,Multidrug therapy; wound care
+Susan Turnbull,371,355,2023-05-25,Eileen Hewitt,94,36,Dapsone,Antibiotic,37,Leprosy,Multidrug therapy; wound care
+Karen Crawford-Morris,42,366,2024-11-21,Mandy White,38,36,Dapsone,Antibiotic,37,Leprosy,Multidrug therapy; wound care
+Amber Holmes-Gray,124,381,2024-09-25,Simon Middleton,62,36,Dapsone,Antibiotic,37,Leprosy,Multidrug therapy; wound care
+Elliott Ellis,313,417,2024-12-30,Christopher Little,16,36,Dapsone,Antibiotic,37,Leprosy,Multidrug therapy; wound care
+Craig Taylor Birch,226,425,2024-02-07,Jayne Lewis,13,36,Dapsone,Antibiotic,37,Leprosy,Multidrug therapy; wound care
+Suzanne Riley Bowen,344,127,2024-12-21,Caroline Knight,28,37,Donepezil,Cognitive enhancer,38,Alzheimer's Disease,Cholinesterase inhibitors; cognitive stimulation therapies
+Janice Smith,467,146,2023-04-27,Lesley Yates,31,37,Donepezil,Cognitive enhancer,38,Alzheimer's Disease,Cholinesterase inhibitors; cognitive stimulation therapies
+Maureen Brown,364,362,2023-10-24,Rosie O'Connor,45,37,Donepezil,Cognitive enhancer,38,Alzheimer's Disease,Cholinesterase inhibitors; cognitive stimulation therapies
+Louise Lowe,242,403,2023-02-25,Sara Smith,30,37,Donepezil,Cognitive enhancer,38,Alzheimer's Disease,Cholinesterase inhibitors; cognitive stimulation therapies
+Martyn Watson-Parker,400,497,2023-02-02,Max Knight,20,37,Donepezil,Cognitive enhancer,38,Alzheimer's Disease,Cholinesterase inhibitors; cognitive stimulation therapies
+Joan Skyler Knowles,235,37,2023-11-05,Lawrence Curtis,22,38,Supportive care,Supportive therapy,39,Ebola Virus Disease,Fluid resuscitation; electrolyte monitoring
+Clifford Williams,300,178,2023-12-28,Lewis Bevan,7,38,Supportive care,Supportive therapy,39,Ebola Virus Disease,Fluid resuscitation; electrolyte monitoring
+Joan Skyler Knowles,235,385,2023-05-28,Lawrence Curtis,22,38,Supportive care,Supportive therapy,39,Ebola Virus Disease,Fluid resuscitation; electrolyte monitoring
+Rhys Jordan Crawford-Morris,492,441,2024-05-21,Tracey Gardner,11,38,Supportive care,Supportive therapy,39,Ebola Virus Disease,Fluid resuscitation; electrolyte monitoring
+Ashley Avery John-Bennett,534,455,2023-04-17,Chloe Law,37,38,Supportive care,Supportive therapy,39,Ebola Virus Disease,Fluid resuscitation; electrolyte monitoring
+Joan Skyler Knowles,235,37,2023-11-05,Lawrence Curtis,22,38,Supportive care,Supportive therapy,41,Marburg Virus,Isolation; hydration therapy; electrolyte monitoring
+Clifford Williams,300,178,2023-12-28,Lewis Bevan,7,38,Supportive care,Supportive therapy,41,Marburg Virus,Isolation; hydration therapy; electrolyte monitoring
+Joan Skyler Knowles,235,385,2023-05-28,Lawrence Curtis,22,38,Supportive care,Supportive therapy,41,Marburg Virus,Isolation; hydration therapy; electrolyte monitoring
+Rhys Jordan Crawford-Morris,492,441,2024-05-21,Tracey Gardner,11,38,Supportive care,Supportive therapy,41,Marburg Virus,Isolation; hydration therapy; electrolyte monitoring
+Ashley Avery John-Bennett,534,455,2023-04-17,Chloe Law,37,38,Supportive care,Supportive therapy,41,Marburg Virus,Isolation; hydration therapy; electrolyte monitoring
+Joan Skyler Knowles,235,37,2023-11-05,Lawrence Curtis,22,38,Supportive care,Supportive therapy,42,Yellow Fever,Rest; fluids; pain relievers for fever management
+Clifford Williams,300,178,2023-12-28,Lewis Bevan,7,38,Supportive care,Supportive therapy,42,Yellow Fever,Rest; fluids; pain relievers for fever management
+Joan Skyler Knowles,235,385,2023-05-28,Lawrence Curtis,22,38,Supportive care,Supportive therapy,42,Yellow Fever,Rest; fluids; pain relievers for fever management
+Rhys Jordan Crawford-Morris,492,441,2024-05-21,Tracey Gardner,11,38,Supportive care,Supportive therapy,42,Yellow Fever,Rest; fluids; pain relievers for fever management
+Ashley Avery John-Bennett,534,455,2023-04-17,Chloe Law,37,38,Supportive care,Supportive therapy,42,Yellow Fever,Rest; fluids; pain relievers for fever management
+Sharon Finley Harrison,477,42,2023-06-04,Tracey Robson,79,39,Symptomatic relief,Supportive therapy,40,Zika Virus,Rest; hydration; acetaminophen for pain relief
+Lynne Williams,463,135,2023-12-27,Leigh Lynch,65,39,Symptomatic relief,Supportive therapy,40,Zika Virus,Rest; hydration; acetaminophen for pain relief
+Joe Peyton Hall-Clark,210,160,2023-11-17,Tracey Robson,79,39,Symptomatic relief,Supportive therapy,40,Zika Virus,Rest; hydration; acetaminophen for pain relief
+Megan Griffiths,458,167,2023-12-25,Gerard Ali,89,39,Symptomatic relief,Supportive therapy,40,Zika Virus,Rest; hydration; acetaminophen for pain relief
+Jake Jordan Martin,531,285,2023-09-19,Gordon Wright,54,39,Symptomatic relief,Supportive therapy,40,Zika Virus,Rest; hydration; acetaminophen for pain relief
+Lorraine Alex Smith,161,332,2023-07-24,Kieran Ford,47,39,Symptomatic relief,Supportive therapy,40,Zika Virus,Rest; hydration; acetaminophen for pain relief
+Adrian Barnes-Scott,293,339,2023-10-25,Maurice Roberts,97,39,Symptomatic relief,Supportive therapy,40,Zika Virus,Rest; hydration; acetaminophen for pain relief
+Lindsey Davies,142,394,2024-09-25,Rosie O'Connor,45,39,Symptomatic relief,Supportive therapy,40,Zika Virus,Rest; hydration; acetaminophen for pain relief
+Kathryn Bell,257,410,2024-10-20,Roy Yates,40,39,Symptomatic relief,Supportive therapy,40,Zika Virus,Rest; hydration; acetaminophen for pain relief
+Jake Riley Ingram,452,429,2023-09-12,Kelly Cook,27,39,Symptomatic relief,Supportive therapy,40,Zika Virus,Rest; hydration; acetaminophen for pain relief
+Jeffrey Elliot Stevenson,393,454,2024-02-28,Mandy White,38,39,Symptomatic relief,Supportive therapy,40,Zika Virus,Rest; hydration; acetaminophen for pain relief
+Sarah Williamson,369,466,2024-09-03,Richard Patel,23,39,Symptomatic relief,Supportive therapy,40,Zika Virus,Rest; hydration; acetaminophen for pain relief
+Gail Lambert,428,76,2023-10-27,Bethany Johnston,33,40,Albendazole,Anthelmintic,51,Hookworm,Anthelmintics; iron supplementation for anemia
+Mark Dakota Ford,354,221,2024-11-17,Caroline Knight,28,40,Albendazole,Anthelmintic,51,Hookworm,Anthelmintics; iron supplementation for anemia
+Joseph Reese Jones,60,481,2023-12-07,Maurice Roberts,97,40,Albendazole,Anthelmintic,51,Hookworm,Anthelmintics; iron supplementation for anemia
+Joan Skyler Knowles,235,487,2024-09-14,Lawrence Curtis,22,40,Albendazole,Anthelmintic,51,Hookworm,Anthelmintics; iron supplementation for anemia
+Gail Lambert,428,76,2023-10-27,Bethany Johnston,33,40,Albendazole,Anthelmintic,52,Ascariasis,Anthelmintic medication; hygiene education
+Mark Dakota Ford,354,221,2024-11-17,Caroline Knight,28,40,Albendazole,Anthelmintic,52,Ascariasis,Anthelmintic medication; hygiene education
+Joseph Reese Jones,60,481,2023-12-07,Maurice Roberts,97,40,Albendazole,Anthelmintic,52,Ascariasis,Anthelmintic medication; hygiene education
+Joan Skyler Knowles,235,487,2024-09-14,Lawrence Curtis,22,40,Albendazole,Anthelmintic,52,Ascariasis,Anthelmintic medication; hygiene education
+Gail Lambert,428,76,2023-10-27,Bethany Johnston,33,40,Albendazole,Anthelmintic,53,Trichinosis,Antiparasitic therapy; pain management for muscle symptoms
+Mark Dakota Ford,354,221,2024-11-17,Caroline Knight,28,40,Albendazole,Anthelmintic,53,Trichinosis,Antiparasitic therapy; pain management for muscle symptoms
+Joseph Reese Jones,60,481,2023-12-07,Maurice Roberts,97,40,Albendazole,Anthelmintic,53,Trichinosis,Antiparasitic therapy; pain management for muscle symptoms
+Joan Skyler Knowles,235,487,2024-09-14,Lawrence Curtis,22,40,Albendazole,Anthelmintic,53,Trichinosis,Antiparasitic therapy; pain management for muscle symptoms
+Gail Lambert,428,76,2023-10-27,Bethany Johnston,33,40,Albendazole,Anthelmintic,56,Hydatid Disease,Anthelmintic therapy; surgical removal of cysts
+Mark Dakota Ford,354,221,2024-11-17,Caroline Knight,28,40,Albendazole,Anthelmintic,56,Hydatid Disease,Anthelmintic therapy; surgical removal of cysts
+Joseph Reese Jones,60,481,2023-12-07,Maurice Roberts,97,40,Albendazole,Anthelmintic,56,Hydatid Disease,Anthelmintic therapy; surgical removal of cysts
+Joan Skyler Knowles,235,487,2024-09-14,Lawrence Curtis,22,40,Albendazole,Anthelmintic,56,Hydatid Disease,Anthelmintic therapy; surgical removal of cysts
+Gordon Reese Knight,157,45,2024-12-18,Roy Yates,40,41,Ivermectin,Anthelmintic,55,Onchocerciasis,Anthelmintic therapy; management of skin inflammation
+Denise Finley Kelly-Bell,395,81,2023-10-30,Marian Davidson,18,41,Ivermectin,Anthelmintic,55,Onchocerciasis,Anthelmintic therapy; management of skin inflammation
+Marilyn Stephens,22,155,2023-03-17,Ben Cook,71,41,Ivermectin,Anthelmintic,55,Onchocerciasis,Anthelmintic therapy; management of skin inflammation
+Jill Smith,305,165,2023-11-03,Eileen Hewitt,94,41,Ivermectin,Anthelmintic,55,Onchocerciasis,Anthelmintic therapy; management of skin inflammation
+Clifford Williams,300,191,2024-07-18,Lewis Bevan,7,41,Ivermectin,Anthelmintic,55,Onchocerciasis,Anthelmintic therapy; management of skin inflammation
+John Walker,306,208,2024-09-22,Jasmine Frost,49,41,Ivermectin,Anthelmintic,55,Onchocerciasis,Anthelmintic therapy; management of skin inflammation
+Leah Byrne-Clark,203,210,2024-09-16,Philip Stephenson,80,41,Ivermectin,Anthelmintic,55,Onchocerciasis,Anthelmintic therapy; management of skin inflammation
+Lorraine Taylor-Bell,429,258,2024-05-24,Lisa Bennett,90,41,Ivermectin,Anthelmintic,55,Onchocerciasis,Anthelmintic therapy; management of skin inflammation
+Leslie Day,493,268,2023-11-22,Marcus Hart,58,41,Ivermectin,Anthelmintic,55,Onchocerciasis,Anthelmintic therapy; management of skin inflammation
+Jessica Miles,408,326,2023-12-28,Lauren White,96,41,Ivermectin,Anthelmintic,55,Onchocerciasis,Anthelmintic therapy; management of skin inflammation
+Kayleigh Griffiths,499,336,2024-11-08,June Kaur,2,41,Ivermectin,Anthelmintic,55,Onchocerciasis,Anthelmintic therapy; management of skin inflammation
+Martin George-Adams,478,369,2023-04-22,Philip Stephenson,80,41,Ivermectin,Anthelmintic,55,Onchocerciasis,Anthelmintic therapy; management of skin inflammation
+Glen Fraser-Harris,14,461,2024-08-27,Nigel James,24,41,Ivermectin,Anthelmintic,55,Onchocerciasis,Anthelmintic therapy; management of skin inflammation
+Steven Dylan Wilson,123,8,2023-10-23,Lisa Bennett,90,42,Gluten-free diet,Dietary therapy,18,Celiac Disease,Avoid gluten; vitamin supplementation
+Heather Casey Andrews,77,18,2023-10-19,Gerard Ali,89,42,Gluten-free diet,Dietary therapy,18,Celiac Disease,Avoid gluten; vitamin supplementation
+Bruce Wright,190,108,2024-02-05,Melissa Perkins,92,42,Gluten-free diet,Dietary therapy,18,Celiac Disease,Avoid gluten; vitamin supplementation
+Daniel Finley Watson,433,212,2023-08-09,Abigail Gardiner,73,42,Gluten-free diet,Dietary therapy,18,Celiac Disease,Avoid gluten; vitamin supplementation
+Brian Avery Jones,449,299,2024-12-24,Rachel Parkinson,100,42,Gluten-free diet,Dietary therapy,18,Celiac Disease,Avoid gluten; vitamin supplementation
+Caroline Quinn Dixon,164,308,2024-05-18,Roy Yates,40,42,Gluten-free diet,Dietary therapy,18,Celiac Disease,Avoid gluten; vitamin supplementation
+Colin Morgan Hamilton,442,316,2024-02-05,Henry Lewis,41,42,Gluten-free diet,Dietary therapy,18,Celiac Disease,Avoid gluten; vitamin supplementation
+Craig Taylor Birch,226,372,2024-12-10,Jayne Lewis,13,42,Gluten-free diet,Dietary therapy,18,Celiac Disease,Avoid gluten; vitamin supplementation
+Suzanne Tyler,219,405,2024-07-25,Bethany Johnston,33,42,Gluten-free diet,Dietary therapy,18,Celiac Disease,Avoid gluten; vitamin supplementation
+Bryan Rowan Pickering,274,491,2024-11-14,Victor Evans,66,42,Gluten-free diet,Dietary therapy,18,Celiac Disease,Avoid gluten; vitamin supplementation
+Kate Andrews,53,498,2023-02-13,Vanessa Brennan,48,42,Gluten-free diet,Dietary therapy,18,Celiac Disease,Avoid gluten; vitamin supplementation
+Lindsey Davies,142,143,2024-10-04,Rosie O'Connor,45,43,Doxycycline,Antibiotic,44,Lyme Disease,Antibiotics; supportive therapy for chronic symptoms
+Ryan Bradshaw,215,197,2024-02-24,Maurice Roberts,97,43,Doxycycline,Antibiotic,44,Lyme Disease,Antibiotics; supportive therapy for chronic symptoms
+Gemma White,587,199,2024-03-10,Marcus Hart,58,43,Doxycycline,Antibiotic,44,Lyme Disease,Antibiotics; supportive therapy for chronic symptoms
+Joe Peyton Hall-Clark,210,211,2024-04-04,Tracey Robson,79,43,Doxycycline,Antibiotic,44,Lyme Disease,Antibiotics; supportive therapy for chronic symptoms
+Samuel Doyle,177,314,2024-12-05,Janet Preston,12,43,Doxycycline,Antibiotic,44,Lyme Disease,Antibiotics; supportive therapy for chronic symptoms
+Joyce Barnes-Clark,34,350,2023-12-26,Adam Clarke,5,43,Doxycycline,Antibiotic,44,Lyme Disease,Antibiotics; supportive therapy for chronic symptoms
+Rosie Jones-Mitchell,386,370,2023-07-03,Melissa Perkins,92,43,Doxycycline,Antibiotic,44,Lyme Disease,Antibiotics; supportive therapy for chronic symptoms
+Bryan Rowan Pickering,274,392,2024-05-01,Victor Evans,66,43,Doxycycline,Antibiotic,44,Lyme Disease,Antibiotics; supportive therapy for chronic symptoms
+Thomas Bolton-Gray,283,426,2024-12-26,Tracey Gardner,11,43,Doxycycline,Antibiotic,44,Lyme Disease,Antibiotics; supportive therapy for chronic symptoms
+Sophie Jones,399,459,2023-10-05,Mandy White,38,43,Doxycycline,Antibiotic,44,Lyme Disease,Antibiotics; supportive therapy for chronic symptoms
+Malcolm Wood,527,477,2023-12-02,Tracey Gardner,11,43,Doxycycline,Antibiotic,44,Lyme Disease,Antibiotics; supportive therapy for chronic symptoms
+Lewis Taylor,513,19,2023-08-27,Joanne Cooke,10,44,Rabies immunoglobulin,Post-exposure prophylaxis,45,Rabies,Post-exposure prophylaxis; wound cleaning
+Joanne Dylan Green,350,68,2024-10-27,Gordon Wright,54,44,Rabies immunoglobulin,Post-exposure prophylaxis,45,Rabies,Post-exposure prophylaxis; wound cleaning
+Elliot Lambert,90,202,2023-11-13,Kelly Cook,27,44,Rabies immunoglobulin,Post-exposure prophylaxis,45,Rabies,Post-exposure prophylaxis; wound cleaning
+Damien Riley Bates,223,399,2023-09-09,Paige Thomas,69,44,Rabies immunoglobulin,Post-exposure prophylaxis,45,Rabies,Post-exposure prophylaxis; wound cleaning
+Charlie Peyton Edwards,290,430,2023-09-21,Vincent Saunders,70,44,Rabies immunoglobulin,Post-exposure prophylaxis,45,Rabies,Post-exposure prophylaxis; wound cleaning
+Dean Burgess,280,432,2024-09-11,Eleanor Finch,42,44,Rabies immunoglobulin,Post-exposure prophylaxis,45,Rabies,Post-exposure prophylaxis; wound cleaning
+George Pearson,46,475,2023-12-18,Lawrence Brown,3,44,Rabies immunoglobulin,Post-exposure prophylaxis,45,Rabies,Post-exposure prophylaxis; wound cleaning
+Josh Cameron Howarth,479,479,2024-01-23,Simon Middleton,62,44,Rabies immunoglobulin,Post-exposure prophylaxis,45,Rabies,Post-exposure prophylaxis; wound cleaning
+Jill Smith,305,488,2024-04-12,Eileen Hewitt,94,44,Rabies immunoglobulin,Post-exposure prophylaxis,45,Rabies,Post-exposure prophylaxis; wound cleaning
+Elliott Allen,279,39,2023-01-02,Caroline Bond,51,45,Ceftriaxone,Antibiotic,46,Meningitis,Antibiotics for bacterial infection; supportive care for viral cases
+Mohammed Oliver-Bennett,232,64,2023-12-26,Melissa Perkins,92,45,Ceftriaxone,Antibiotic,46,Meningitis,Antibiotics for bacterial infection; supportive care for viral cases
+Rosemary Alex Webster-Harris,253,69,2024-03-04,Philip Walters,46,45,Ceftriaxone,Antibiotic,46,Meningitis,Antibiotics for bacterial infection; supportive care for viral cases
+Jane Robertson-Bell,347,70,2024-08-03,Sally Nelson,29,45,Ceftriaxone,Antibiotic,46,Meningitis,Antibiotics for bacterial infection; supportive care for viral cases
+Beth Sheppard,261,71,2023-04-30,Reece Jones,25,45,Ceftriaxone,Antibiotic,46,Meningitis,Antibiotics for bacterial infection; supportive care for viral cases
+Leon Boyle,206,86,2024-07-20,Lewis Bevan,7,45,Ceftriaxone,Antibiotic,46,Meningitis,Antibiotics for bacterial infection; supportive care for viral cases
+Ellie Griffiths,83,164,2023-03-12,Alexandra Richardson,55,45,Ceftriaxone,Antibiotic,46,Meningitis,Antibiotics for bacterial infection; supportive care for viral cases
+Kieran Rowan Griffiths,599,184,2023-02-20,Gerard Ali,89,45,Ceftriaxone,Antibiotic,46,Meningitis,Antibiotics for bacterial infection; supportive care for viral cases
+Robert Cooper,136,188,2023-09-13,June Kaur,2,45,Ceftriaxone,Antibiotic,46,Meningitis,Antibiotics for bacterial infection; supportive care for viral cases
+Jessica Gibson,297,195,2024-11-13,Janet Preston,12,45,Ceftriaxone,Antibiotic,46,Meningitis,Antibiotics for bacterial infection; supportive care for viral cases
+Francesca Hammond-Bennett,247,239,2024-02-28,Richard Sanders,91,45,Ceftriaxone,Antibiotic,46,Meningitis,Antibiotics for bacterial infection; supportive care for viral cases
+Lynne Brooks,506,293,2024-11-23,Victor Evans,66,45,Ceftriaxone,Antibiotic,46,Meningitis,Antibiotics for bacterial infection; supportive care for viral cases
+Mary Brown-Ward,323,343,2023-12-03,Lauren White,96,45,Ceftriaxone,Antibiotic,46,Meningitis,Antibiotics for bacterial infection; supportive care for viral cases
+Frederick Humphries,207,495,2024-10-18,Robin Jones,44,45,Ceftriaxone,Antibiotic,46,Meningitis,Antibiotics for bacterial infection; supportive care for viral cases
+Janice Roberts,24,10,2024-08-10,Ben Cook,71,46,Tetanus immunoglobulin,Post-exposure prophylaxis,47,Tetanus,Antibiotics; wound cleaning; supportive care
+Cheryl Jamie James-Adams,40,29,2024-05-14,Raymond Green,84,46,Tetanus immunoglobulin,Post-exposure prophylaxis,47,Tetanus,Antibiotics; wound cleaning; supportive care
+Eileen Lee-Morris,38,34,2023-05-28,Irene Wright,36,46,Tetanus immunoglobulin,Post-exposure prophylaxis,47,Tetanus,Antibiotics; wound cleaning; supportive care
+Bernard Logan Begum,546,89,2023-12-09,Lawrence Curtis,22,46,Tetanus immunoglobulin,Post-exposure prophylaxis,47,Tetanus,Antibiotics; wound cleaning; supportive care
+Arthur Dylan Baker,483,125,2024-05-04,Jessica Brown,68,46,Tetanus immunoglobulin,Post-exposure prophylaxis,47,Tetanus,Antibiotics; wound cleaning; supportive care
+Jenna Smith,263,216,2023-07-21,Lawrence Brown,3,46,Tetanus immunoglobulin,Post-exposure prophylaxis,47,Tetanus,Antibiotics; wound cleaning; supportive care
+Melissa Jordan Clarke,121,274,2024-02-20,Roy Yates,40,46,Tetanus immunoglobulin,Post-exposure prophylaxis,47,Tetanus,Antibiotics; wound cleaning; supportive care
+Joanne Dylan Green,350,291,2023-04-17,Gordon Wright,54,46,Tetanus immunoglobulin,Post-exposure prophylaxis,47,Tetanus,Antibiotics; wound cleaning; supportive care
+Alan Storey-Hill,504,302,2024-06-20,Jayne Simpson,17,46,Tetanus immunoglobulin,Post-exposure prophylaxis,47,Tetanus,Antibiotics; wound cleaning; supportive care
+Janet Saunders,106,311,2024-06-02,Claire Cross,75,46,Tetanus immunoglobulin,Post-exposure prophylaxis,47,Tetanus,Antibiotics; wound cleaning; supportive care
+Marilyn Stephens,22,358,2024-08-10,Ben Cook,71,46,Tetanus immunoglobulin,Post-exposure prophylaxis,47,Tetanus,Antibiotics; wound cleaning; supportive care
+Colin Morgan Hamilton,442,361,2023-07-23,Henry Lewis,41,46,Tetanus immunoglobulin,Post-exposure prophylaxis,47,Tetanus,Antibiotics; wound cleaning; supportive care
+Sylvia Evans,168,393,2024-08-03,Henry Cooke,60,46,Tetanus immunoglobulin,Post-exposure prophylaxis,47,Tetanus,Antibiotics; wound cleaning; supportive care
+Alice Taylor Singh,292,411,2023-08-20,Sara Smith,30,46,Tetanus immunoglobulin,Post-exposure prophylaxis,47,Tetanus,Antibiotics; wound cleaning; supportive care
+Daniel Baker,113,467,2023-09-30,Arthur Morris,83,46,Tetanus immunoglobulin,Post-exposure prophylaxis,47,Tetanus,Antibiotics; wound cleaning; supportive care
+Linda Osborne-Parker,199,483,2023-05-06,Caroline Bond,51,46,Tetanus immunoglobulin,Post-exposure prophylaxis,47,Tetanus,Antibiotics; wound cleaning; supportive care
+Deborah Gardner,245,2,2024-04-27,Tracey Robson,79,47,Diphtheria antitoxin,Antitoxin,48,Diphtheria,Antibiotics; supportive care for respiratory symptoms
+Clifford Williams,300,43,2023-01-15,Lewis Bevan,7,47,Diphtheria antitoxin,Antitoxin,48,Diphtheria,Antibiotics; supportive care for respiratory symptoms
+Janice Smith,467,100,2024-10-02,Lesley Yates,31,47,Diphtheria antitoxin,Antitoxin,48,Diphtheria,Antibiotics; supportive care for respiratory symptoms
+Damien Taylor,118,241,2024-01-16,Caroline Bond,51,47,Diphtheria antitoxin,Antitoxin,48,Diphtheria,Antibiotics; supportive care for respiratory symptoms
+Lindsey Avery Connor,97,243,2023-09-02,Gerard Ali,89,47,Diphtheria antitoxin,Antitoxin,48,Diphtheria,Antibiotics; supportive care for respiratory symptoms
+Clare Frost,520,267,2024-09-05,Sally Nelson,29,47,Diphtheria antitoxin,Antitoxin,48,Diphtheria,Antibiotics; supportive care for respiratory symptoms
+Joyce Barnes-Clark,34,307,2023-09-29,Adam Clarke,5,47,Diphtheria antitoxin,Antitoxin,48,Diphtheria,Antibiotics; supportive care for respiratory symptoms
+Margaret Finley Jones-Robinson,482,324,2023-06-09,Marian Davidson,18,47,Diphtheria antitoxin,Antitoxin,48,Diphtheria,Antibiotics; supportive care for respiratory symptoms
+Dean Burgess,280,395,2023-03-08,Eleanor Finch,42,47,Diphtheria antitoxin,Antitoxin,48,Diphtheria,Antibiotics; supportive care for respiratory symptoms
+Marcus Hodgson,284,4,2023-05-19,Paige Barker,82,48,Azithromycin,Antibiotic,49,Pertussis,Antibiotics; supportive care to ease coughing
+Graeme Reese Bull,510,24,2023-01-16,Georgia Barlow,95,48,Azithromycin,Antibiotic,49,Pertussis,Antibiotics; supportive care to ease coughing
+Kayleigh Wilkinson,241,78,2024-08-08,Gregory Lane,35,48,Azithromycin,Antibiotic,49,Pertussis,Antibiotics; supportive care to ease coughing
+Alice George,103,83,2023-11-28,Vincent Saunders,70,48,Azithromycin,Antibiotic,49,Pertussis,Antibiotics; supportive care to ease coughing
+Frank Jordan White,9,114,2024-07-18,Jason Roberts,21,48,Azithromycin,Antibiotic,49,Pertussis,Antibiotics; supportive care to ease coughing
+Elliott Elliot Sharpe-Clark,359,126,2024-06-30,Marcus Harris,15,48,Azithromycin,Antibiotic,49,Pertussis,Antibiotics; supportive care to ease coughing
+Malcolm Green,375,231,2023-01-29,Jasmine Williams,76,48,Azithromycin,Antibiotic,49,Pertussis,Antibiotics; supportive care to ease coughing
+Owen Turner-Morgan,312,319,2024-07-24,Jayne Lewis,13,48,Azithromycin,Antibiotic,49,Pertussis,Antibiotics; supportive care to ease coughing
+Joan Skyler Knowles,235,375,2024-03-01,Lawrence Curtis,22,48,Azithromycin,Antibiotic,49,Pertussis,Antibiotics; supportive care to ease coughing
+Megan Griffiths,458,398,2023-03-22,Gerard Ali,89,48,Azithromycin,Antibiotic,49,Pertussis,Antibiotics; supportive care to ease coughing
+Oliver Bennett,149,402,2024-04-14,Eleanor Finch,42,48,Azithromycin,Antibiotic,49,Pertussis,Antibiotics; supportive care to ease coughing
+Melissa Williams,249,445,2023-01-03,Kieran Ford,47,48,Azithromycin,Antibiotic,49,Pertussis,Antibiotics; supportive care to ease coughing
+Caroline Quinn Dixon,164,500,2023-11-22,Roy Yates,40,48,Azithromycin,Antibiotic,49,Pertussis,Antibiotics; supportive care to ease coughing
+Benjamin Skyler Moore,498,54,2023-06-12,Lesley Yates,31,49,Streptomycin,Antibiotic,50,Plague,Antibiotics; isolation to prevent spread
+Ashley Hayes,23,149,2023-09-25,Tracey Gardner,11,49,Streptomycin,Antibiotic,50,Plague,Antibiotics; isolation to prevent spread
+Declan Taylor Oliver,475,172,2023-12-15,Carl James,81,49,Streptomycin,Antibiotic,50,Plague,Antibiotics; isolation to prevent spread
+Megan Patel-Harris,502,322,2024-06-18,Alexandra Richardson,55,49,Streptomycin,Antibiotic,50,Plague,Antibiotics; isolation to prevent spread
+Raymond Dennis,320,387,2023-01-23,Philip Stephenson,80,49,Streptomycin,Antibiotic,50,Plague,Antibiotics; isolation to prevent spread
+Gerald Finley Harris,117,407,2024-02-08,Dylan Johnston,32,49,Streptomycin,Antibiotic,50,Plague,Antibiotics; isolation to prevent spread
+Fiona Rowe,5,450,2023-04-01,Jasmine Williams,76,49,Streptomycin,Antibiotic,50,Plague,Antibiotics; isolation to prevent spread
+Margaret Finley Jones-Robinson,482,462,2023-10-22,Marian Davidson,18,49,Streptomycin,Antibiotic,50,Plague,Antibiotics; isolation to prevent spread
+Kayleigh Davies-Clark,460,1,2023-12-23,Lawrence Curtis,22,50,Diethylcarbamazine,Anthelmintic,54,Filariasis,Anthelmintic drugs; surgical management for severe lymphedema
+Margaret Kirby,437,7,2023-09-01,Bryan Jones,87,50,Diethylcarbamazine,Anthelmintic,54,Filariasis,Anthelmintic drugs; surgical management for severe lymphedema
+Darren Cameron Evans,212,17,2023-08-09,Chloe Law,37,50,Diethylcarbamazine,Anthelmintic,54,Filariasis,Anthelmintic drugs; surgical management for severe lymphedema
+Julie Brown,436,33,2024-11-21,Robin Jones,44,50,Diethylcarbamazine,Anthelmintic,54,Filariasis,Anthelmintic drugs; surgical management for severe lymphedema
+Marian Peyton Dawson,78,91,2024-11-16,Tracey Gardner,11,50,Diethylcarbamazine,Anthelmintic,54,Filariasis,Anthelmintic drugs; surgical management for severe lymphedema
+Joel Skyler Wilson,85,109,2023-02-05,Iain Davies,4,50,Diethylcarbamazine,Anthelmintic,54,Filariasis,Anthelmintic drugs; surgical management for severe lymphedema
+Leon Boyle,206,123,2023-12-19,Lewis Bevan,7,50,Diethylcarbamazine,Anthelmintic,54,Filariasis,Anthelmintic drugs; surgical management for severe lymphedema
+Julian Ali,52,130,2023-06-02,Georgia Barlow,95,50,Diethylcarbamazine,Anthelmintic,54,Filariasis,Anthelmintic drugs; surgical management for severe lymphedema
+Michelle Sutton,414,196,2023-02-11,Maurice Hall,26,50,Diethylcarbamazine,Anthelmintic,54,Filariasis,Anthelmintic drugs; surgical management for severe lymphedema
+Susan Quinn Simpson,391,217,2024-12-09,Nigel James,24,50,Diethylcarbamazine,Anthelmintic,54,Filariasis,Anthelmintic drugs; surgical management for severe lymphedema
+Oliver Logan Brown,355,240,2023-01-25,Emma Brooks,57,50,Diethylcarbamazine,Anthelmintic,54,Filariasis,Anthelmintic drugs; surgical management for severe lymphedema
+Lynda Slater,470,306,2024-07-29,Victor Evans,66,50,Diethylcarbamazine,Anthelmintic,54,Filariasis,Anthelmintic drugs; surgical management for severe lymphedema
+Jeffrey Elliot Stevenson,393,338,2024-07-13,Mandy White,38,50,Diethylcarbamazine,Anthelmintic,54,Filariasis,Anthelmintic drugs; surgical management for severe lymphedema
+Alice Taylor Singh,292,418,2024-02-09,Sara Smith,30,50,Diethylcarbamazine,Anthelmintic,54,Filariasis,Anthelmintic drugs; surgical management for severe lymphedema
+Steven Ross,377,420,2023-06-03,Victor Evans,66,50,Diethylcarbamazine,Anthelmintic,54,Filariasis,Anthelmintic drugs; surgical management for severe lymphedema
+Irene Williams,567,433,2023-11-18,Marcus Harris,15,50,Diethylcarbamazine,Anthelmintic,54,Filariasis,Anthelmintic drugs; surgical management for severe lymphedema
+Alison Rowan Tucker,120,437,2024-07-10,Bethany Johnston,33,50,Diethylcarbamazine,Anthelmintic,54,Filariasis,Anthelmintic drugs; surgical management for severe lymphedema
+Janice Reese Brown,295,440,2023-07-16,Rebecca Wheeler,52,50,Diethylcarbamazine,Anthelmintic,54,Filariasis,Anthelmintic drugs; surgical management for severe lymphedema
