@@ -1,4 +1,4 @@
-INSERT INTO DOCTORS (first_name, last_name, date_of_birth, hospital_id, address) VALUES
+INSERT INTO DOCTORS (first_name, second_name, date_of_birth, hospital_id, address) VALUES
 ('Kieran', 'Parkes', '1958-06-13', 35, 'Badger’s Rest, The Ridge Avenue, Uttoxeter Rd, Derby DE22 3FC'),
 ('June', 'Kaur', '1984-01-01', 3, 'Kingfisher Crescent Barn, Kingfisher Crescent Fold, Westminster Bridge Rd, London SE1 7IB'),
 ('Lawrence', 'Brown', '1964-06-11', 4, '58 Elm Gardens, Dudley Rd, Birmingham B18 7BZ'),
