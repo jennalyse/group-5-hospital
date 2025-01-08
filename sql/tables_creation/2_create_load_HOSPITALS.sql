@@ -19,7 +19,7 @@ CREATE TABLE HOSPITALS (
 );
 
 -- Load the data from cleaned CSV file containing hospitals data
-LOAD DATA LOCAL INFILE '/path/to/cleaned_hospitals.csv' -- used the cleaned_hospitals CSV file
+LOAD DATA LOCAL INFILE '/path/to/final_hospitals.csv' -- used the final_hospitals CSV file
   -- replace with server/local machine path to the CSV file (e.g. mine was cd ~/Downloads)
 INTO TABLE HOSPITALS
 FIELDS TERMINATED BY ',' 
