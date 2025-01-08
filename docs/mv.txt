@@ -1,0 +1,6 @@
+scp "C:/Users/user/Downloads/cleaned_hospitals.csv" ubuntu@10.121.4.169:/home/ubuntu/
+ssh ubuntu@10.121.4.169
+sudo mv /home/ubuntu/cleaned_hospitals.csv /var/lib/mysql-files/
+sudo chown mysql:mysql /var/lib/mysql-files/cleaned_hospitals.csv
+sudo chmod 644 /var/lib/mysql-files/cleaned_hospitals.csv
+ls /var/lib/mysql-files/
