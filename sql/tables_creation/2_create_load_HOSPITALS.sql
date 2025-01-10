@@ -14,8 +14,8 @@ CREATE TABLE HOSPITALS (
     address TEXT NOT NULL,
     size INT NOT NULL,
     type VARCHAR(100),
-    accreditation_year YEAR,
-    emergency_service BOOLEAN
+    emergency_service BOOLEAN,
+    accreditation_year YEAR
 );
 
 -- Load the data from cleaned CSV file containing hospitals data
