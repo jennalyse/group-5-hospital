@@ -22,9 +22,9 @@ BEGIN
     JOIN 
         PATIENTS p ON pr.patient_id = p.patient_id
     JOIN 
-        MEDICATIONS m ON pr.medication_id = m.med_id
+        MEDICATIONS m ON pr.med_id = m.med_id
     JOIN 
-        DISEASE dis ON m.med_id = dis.med_id
+        DISEASES dis ON m.med_id = dis.med_id
     ORDER BY 
         patient_name, pr.prescription_date;
 END //
