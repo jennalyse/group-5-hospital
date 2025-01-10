@@ -2,10 +2,10 @@
 USE hospitals_db;
 
 -- Drop DISEASE table if it already exists
-DROP TABLE IF EXISTS DISEASE;
+DROP TABLE IF EXISTS DISEASES;
 
 -- Create DISEASE table
-CREATE TABLE DISEASE (
+CREATE TABLE DISEASES (
     disease_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,  
     disease_name VARCHAR(255) NOT NULL,                
     disease_treatment TEXT,                             
@@ -21,7 +21,7 @@ CREATE TABLE DISEASE (
 -- 2. USE hospitals_db;
 -- 3. 
 LOAD DATA LOCAL INFILE '/path/to/final_diseases.csv'
-INTO TABLE DISEASE
+INTO TABLE DISEASES
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"' 
 LINES TERMINATED BY '\n'
@@ -30,4 +30,4 @@ IGNORE 1 ROWS
 
 
 -- Verify that the DISEASE table was created successfully
-SELECT * FROM DISEASE;
+SELECT * FROM DISEASES;
