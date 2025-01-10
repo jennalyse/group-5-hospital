@@ -46,7 +46,7 @@ BEGIN
             JOIN 
                 MEDICATIONS m ON pr.medication_id = m.med_id
             JOIN 
-                DISEASE dis ON m.med_id = dis.med_id
+                DISEASES dis ON m.med_id = dis.med_id
             WHERE 
                 pr.patient_id = input_patient_id
             ORDER BY 
@@ -68,7 +68,7 @@ BEGIN
             JOIN 
                 MEDICATIONS m ON pr.medication_id = m.med_id
             JOIN 
-                DISEASE dis ON m.med_id = dis.med_id
+                DISEASES dis ON m.med_id = dis.med_id
             WHERE 
                 LOWER(p.first_name) = LOWER(input_first_name)
                 AND LOWER(p.second_name) = LOWER(input_second_name)
