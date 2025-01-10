@@ -1,4 +1,4 @@
-INSERT INTO DISEASE (disease_name, disease_treatment, med_id, doctor_id) VALUES
+INSERT INTO DISEASES (disease_name, disease_treatment, med_id, doctor_id) VALUES
 ('Hypertension', 'Antihypertensive medication; reduced salt intake, regular exercise', 1, 56),
 ('Type 2 Diabetes Mellitus', 'Blood sugar-lowering medication; dietary adjustments', 2, 29),
 ('Asthma', 'Inhaled bronchodilator; pulmonary rehabilitation', 3, 38),
