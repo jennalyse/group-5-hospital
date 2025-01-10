@@ -47,9 +47,9 @@ BEGIN
             JOIN 
                 PATIENTS p ON pr.patient_id = p.patient_id
             JOIN 
-                MEDICATIONS m ON pr.medication_id = m.med_id
+                MEDICATIONS m ON pr.med_id = m.med_id
             JOIN 
-                DISEASE dis ON m.med_id = dis.med_id
+                DISEASES dis ON m.med_id = dis.med_id
             WHERE 
                 pr.doctor_id = input_doctor_id
             ORDER BY 
@@ -70,9 +70,9 @@ BEGIN
             JOIN 
                 PATIENTS p ON pr.patient_id = p.patient_id
             JOIN 
-                MEDICATIONS m ON pr.medication_id = m.med_id
+                MEDICATIONS m ON pr.med_id = m.med_id
             JOIN 
-                DISEASE dis ON m.med_id = dis.med_id
+                DISEASES dis ON m.med_id = dis.med_id
             JOIN 
                 DOCTORS d ON pr.doctor_id = d.doctor_id
             WHERE 
