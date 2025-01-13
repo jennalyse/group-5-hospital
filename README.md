@@ -17,7 +17,13 @@ This repository contains the Group 5 hospital database project, developed in MyS
 ---
 
 ## Project Overview
-...
+This project is the development of a new database structure to manage a group of hospitals, with their associated Doctors and patients.  The database has been developed in MySQL and separately in ACCESS, and holds the data of 100 Doctors, based at 40 different hospitals, with the details of 600 associated patients.  Further databases outlining the patient prescriptions, diseases, lab results, medications and patient appointments have been linked in with the initial doctor, patient and hospital data set, to enable queries to be asked of the data.
+
+Data and code provided within the project include initial prerequisites for including the relevant databases within the code, running the code and asking specific questions of the databases.  Technical informations about the database structure and query designs are provided in the Entity Relationship Diagram (ERD), flowcharts and pseudocode for each of the queries that were planned.  The MySQL queries are included to enable the code to be run using the databases to answer each specific query, and equivalent information provided for examining the data in the same way using MS ACCESS.
+
+The databases contain AI generated data for patients, doctors and other databases, therefore enabling the structure of the database to be created without the use of real personal data.
+
+The new databases in MySQL and ACCESS can be used to query the relationships between different datasets and evaluate the different patient details and treatments within this artifically generated dataset.
 
 ---
 
