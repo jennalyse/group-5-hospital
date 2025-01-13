@@ -58,4 +58,4 @@ JOIN PATIENTS pt ON p.patient_id = pt.patient_id
 SET p.doctor_id = pt.doctor_id;
 
 -- Check the updated PRESCRIPTIONS table
-SELECT * FROM PRESCRIPTIONS
+SELECT * FROM PRESCRIPTIONS;
