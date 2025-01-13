@@ -28,6 +28,8 @@ BEGIN
             AND second_name = input_second_name
             AND date_of_birth = input_date_of_birth
   
+  SELECT 'Address has been updated' AS message;
+  
    -- Step 3: If there is an error with the information then MySQL should say there is an error and return a statement explaining it
   ELSE
         SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Custom error 1644 (45000), Patient not found';
