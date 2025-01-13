@@ -39,8 +39,7 @@ BEGIN
 
 END //
 
-DELIMITER;
-
+DELIMITER ; 
 
 -- Example calls to test the procedure...
 CALL ListAppointmentsByDoctor(45, NULL, NULL);
