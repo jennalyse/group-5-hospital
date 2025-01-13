@@ -17,7 +17,7 @@ BEGIN
     ORDER BY size DESC
     LIMIT 1;
 
-    -- Retrieve and return the list of doctors at the largest hospital.
+    -- Retrieve list of doctors at the largest hospital.
     SELECT 
         d.first_name, 
         d.second_name,
