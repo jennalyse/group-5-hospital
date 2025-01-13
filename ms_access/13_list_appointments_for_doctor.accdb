@@ -1,0 +1,15 @@
+SELECT 
+    APPOINTMENTS.appt_date AS AppointmentDate, 
+    APPOINTMENTS.appt_purpose AS Purpose, 
+    PATIENTS.first_name & ' ' & PATIENTS.second_name AS PatientName
+FROM 
+    (DOCTORS 
+    INNER JOIN APPOINTMENTS ON DOCTORS.doctor_id = APPOINTMENTS.doctor_id) 
+    INNER JOIN PATIENTS ON APPOINTMENTS.patient_id = PATIENTS.patient_id
+WHERE 
+    ((DOCTORS.doctor_id = [Enter Doctor ID:]) 
+    OR 
+    (DOCTORS.first_name = [Enter Doctor First Name:] 
+    AND DOCTORS.second_name = [Enter Doctor Last Name:]))
+ORDER BY 
+    APPOINTMENTS.appt_date ASC;
