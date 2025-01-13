@@ -83,6 +83,6 @@ DELIMITER ;
 
 
 -- Example calls to test the procedure...
-CALL ListPrescriptionsByPatient(5, NULL, NULL);  -- By patient_id
-CALL ListPrescriptionsByPatient(NULL, 'Fiona', 'Rowe');  -- By patient name
+CALL ListPrescriptionsByPatient(6, NULL, NULL);  -- By patient_id
+CALL ListPrescriptionsByPatient(NULL, 'Jessica', 'Dixon');  -- By patient name
 CALL ListPrescriptionsByPatient(NULL, 'Nonexistent', 'Person');  -- Nonexistent patient
