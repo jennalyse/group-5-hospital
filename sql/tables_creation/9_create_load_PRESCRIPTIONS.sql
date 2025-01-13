@@ -44,7 +44,7 @@ SET patient_id = (
 );
 
 UPDATE PRESCRIPTIONS
-SET medication_id = (
+SET med_id = (
     SELECT med_id
     FROM MEDICATIONS
     ORDER BY RAND()
