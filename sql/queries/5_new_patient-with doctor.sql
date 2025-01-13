@@ -34,5 +34,5 @@ DELIMITER ;
 
 
 -- Example calls to test the procedure...
-CALL ListAppointmentsByPatient(123, NULL, NULL);
-CALL ListAppointmentsByPatient(NULL, 'John', 'Doe');
+CALL NewCustomerWithDoctor(NULL, NULL, NULL, NULL);
+CALL NewCustomerWithDoctor('Stephen', 'Jones', 221B Baker Street London, 13.04.1983);
