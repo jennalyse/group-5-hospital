@@ -1,0 +1,63 @@
+-- Drop to ensure only one version exists.
+DROP PROCEDURE IF EXISTS GetAllPatientDetailsWithDoctorsFromOneHospital;
+
+-- Set DELIMITER to // to ensure the procedure is executed at once.
+DELIMITER //
+
+-- Create a stored procedure to list patients names and addresses registered with doctors at a particular hospital.
+CREATE PROCEDURE GetAllPatientDetailsWithDoctorsFromOneHospital(
+IN input_hospital_name VARCHAR (255)
+)
+
+BEGIN
+    -- Identify the hospital of interest
+    DECLARE hospital_exists INT DEFAULT 0;
+    
+    -- Validate that the hospital exists using LIKE operator for partial matching
+    -- LOWER() : search is case-insensitive
+    -- CONCAT() : allows input to be matched anywhere in hospital_name
+    -- If hospital exists, retun count greater than 0
+    SELECT COUNT(*) INTO hospital_exists
+    FROM HOSPITALS
+    WHERE LOWER(hospital_name) LIKE LOWER(CONCAT('%', input_hospital_name, '%'));
+
+    -- If hospital does not exist (hospital_exists = 0), return an error message
+    IF hospital_exists = 0 THEN
+      SELECT "Hospital not found." AS message;
+    ELSE
+      -- If hospital exists, query doctors who work at the hospital
+      -- Use JOIN to combine DOCTORS and HOSPITALS table on hospital_id
+      -- Use JOIN to combine DOCTORS and PATIENTS table on doctor_id
+      -- Use d to indicate doctors table, p to indicate patients table and h to indicate hospitals table
+      
+      SELECT 
+        p.first_name AS PatientFirstName
+        p.second_name AS PatientSecondName
+        p.address AS PatientAddress
+        d.doctor_id AS DoctorID
+        d.first_name AS DoctorFirstName
+        d.second_name AS DoctorDSecondName        
+        
+      FROM 
+        PATIENTS p
+
+      JOIN
+        Doctors d ON p.doctor_id = d.doctor_id
+
+      JOIN
+        Hospitals h ON d.hospital_id = h.hospital_id
+
+    -- Next, select Select Patients from PATIENTS where they link with Doctor ID
+    -- Use JOIN to combine DOCTORS and PATIENTS table on doctor_id
+    SELECT d.doctor_id AS Doctor_ID
+    FROM PATIENTS
+
+    END IF;
+  END //
+
+-- Reset DELIMITER to ;
+DELIMITER ;
+
+-- Call (should be patients/drs from Addenbrooke's, G O Str, Southampton, Q Elizabeth, Norfolk/Norwich, King's College, 
+-- Queen's, St. George's, Derriford, James Cook, Q Elizabeth University, Derby, and Southmead).
+CALL GetAllPatientDetailsWithDoctorsFromOneHospital();
