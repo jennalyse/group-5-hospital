@@ -1,15 +1,3 @@
-SELECT 
-    LAB_RESULTS.lab_test AS LabTest, 
-    LAB_RESULTS.lab_date AS TestDate, 
-    LAB_RESULTS.lab_result AS Result, 
-    PATIENTS.first_name & ' ' & PATIENTS.second_name AS PatientName, 
-    DOCTORS.first_name & ' ' & DOCTORS.second_name AS DoctorName, 
-    HOSPITALS.hospital_name AS HospitalName
-FROM 
-    ((HOSPITALS 
-    INNER JOIN DOCTORS ON HOSPITALS.hospital_id = DOCTORS.hospital_id) 
-    INNER JOIN (PATIENTS 
-    INNER JOIN LAB_RESULTS ON PATIENTS.patient_id = LAB_RESULTS.patient_id) 
-    ON DOCTORS.doctor_id = LAB_RESULTS.doctor_id)
-WHERE 
-    HOSPITALS.accreditation_year BETWEEN 2013 AND 2020;
+SELECT lab_results.lab_date, lab_results.lab_test, lab_results.lab_result, lab_results.patient_name, lab_results.doctor_name
+FROM (lab_results INNER JOIN doctors ON lab_results.doctor_name = doctors.doctor_name) INNER JOIN hospitals ON doctors.hospital_name = hospitals.hospital_name
+WHERE hospitals.accreditation_year BETWEEN 2013 AND 2020;
