@@ -1,16 +1,4 @@
-SELECT 
-    MEDICATIONS.med_name AS MedicationName, 
-    DOCTORS.first_name & ' ' & DOCTORS.second_name AS DoctorName, 
-    PATIENTS.first_name & ' ' & PATIENTS.second_name AS PatientName, 
-    HOSPITALS.hospital_name AS HospitalName
-FROM 
-    ((HOSPITALS 
-    INNER JOIN DOCTORS ON HOSPITALS.hospital_id = DOCTORS.hospital_id) 
-    INNER JOIN (PATIENTS 
-    INNER JOIN PRESCRIPTIONS ON PATIENTS.patient_id = PRESCRIPTIONS.patient_id) 
-    ON DOCTORS.doctor_id = PRESCRIPTIONS.doctor_id) 
-    INNER JOIN MEDICATIONS ON PRESCRIPTIONS.med_id = MEDICATIONS.med_id
-WHERE 
-    HOSPITALS.hospital_name = [Enter Hospital Name:]
-ORDER BY 
-    MEDICATIONS.med_name ASC;
+SELECT prescriptions.medicine_name, prescriptions.doctor_name, prescriptions.patient_name, doctors.hospital_name
+FROM prescriptions INNER JOIN doctors ON prescriptions.doctor_name = doctors.doctor_name
+WHERE doctors.hospital_name = "Charing Cross Hospital"
+ORDER BY prescriptions.medicine_name;
