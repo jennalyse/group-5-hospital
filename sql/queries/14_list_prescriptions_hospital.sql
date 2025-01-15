@@ -41,4 +41,3 @@ DELIMITER;
 
 -- Example calls to test the procedure...
 CALL ListPrescriptionsByHospital('Royal London Hospital');
-CALL ListPrescriptionsByHospital('Nonexistent Hospital');
