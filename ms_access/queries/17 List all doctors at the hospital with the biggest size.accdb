@@ -1,0 +1,3 @@
+SELECT doctors.doctor_name, hospitals.hospital_name
+FROM doctors INNER JOIN hospitals ON doctors.hospital_name = hospitals.hospital_name
+WHERE hospitals.size_beds = (SELECT Max(size_beds) FROM hospitals);
