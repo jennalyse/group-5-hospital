@@ -72,15 +72,15 @@ Ensure you have the following installed:
 
 ### Steps to Execute:
 1. Clone the repository (in Terminal)
-     git clone https://github.com/your-username/hospital-database.git
-2. Set up database
+     git clone  https://github.com/jennalyse/group-5-hospital/tree/main.git
+3. Set up database
      run MySQL with local_infile enabled (or enable it globally within MySQL)
         mysql --local-infile=1 -u root
      run create_hospitals_db.sql to create database 
         mysql -u root -p < create_hospitals_db.sql
      run create_load_HOSPITALS.sql to create HOSPITALS table and import the data
         mysql -u root - p < create_load_HOSPITALS.sql
-3. Run the following SQL scripts in order:
+4. Run the following SQL scripts in order:
      1. create_DOCTORS.sql
      2. create_PATIENTS.sql
      3. create_APPOINTMENTS.sql
