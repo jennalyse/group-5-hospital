@@ -27,6 +27,11 @@ The new databases in MySQL and ACCESS can be used to query the relationships bet
 
 ---
 
+## Generation of Data
+The starting point for the data generation was a provided list of 40 hospitals together with data on the hospital address, size (number of beds), type, whether they offer emergency services and year of accreditation.  This information was then used to create new data using generative AI to populate related tables of information.  
+
+
+
 ## Files in the Repository
 
 
