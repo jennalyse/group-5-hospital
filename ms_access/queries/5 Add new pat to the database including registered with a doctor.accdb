@@ -1,0 +1,2 @@
+INSERT INTO patients ( patient_name, address, doctor_name )
+VALUES ('Jane Smith', '1 Close', 'Alice Berry');
