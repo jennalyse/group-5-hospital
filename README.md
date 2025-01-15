@@ -5,14 +5,15 @@ This repository contains the Group 5 hospital database project, developed in MyS
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
-2. [Files in the Repository](#files-in-the-repository)
-3. [How to Set Up the Database](#how-to-set-up-the-database)
+2. [Generation of Data](#generation-of-data]
+3. [Files in the Repository](#files-in-the-repository)
+4. [How to Set Up the Database](#how-to-set-up-the-database)
    - [Prerequisites](#prerequisites)
    - [Steps to Execute](#steps-to-execute)
-4. [Technical Details](#technical-details)
+5. [Technical Details](#technical-details)
    - [Database Schemas](#database-schemas)
    - [Data Cleaning](#data-cleaning)
-5. [How to Use the SQL Files](#how-to-use-the-sql-files)
+6. [How to Use the SQL Files](#how-to-use-the-sql-files)
 
 ---
 
@@ -30,6 +31,9 @@ The new databases in MySQL and ACCESS can be used to query the relationships bet
 ## Generation of Data
 The starting point for the data generation was a provided list of 40 hospitals together with data on the hospital address, size (number of beds), type, whether they offer emergency services and year of accreditation.  This information was then used to create new data using generative AI to populate related tables of information.  
 
+The doctors table was created using information from the hospitals table to enable the doctors to be selected for the different hospitals in the geographical area that their address was in.  The patients table was then created using information from the doctors table, again linking with the geogrpahical area.  Both were developed using generative AI to create the list of names, addresses, date of birth, and linking with the relevant doctor, patient and hospital IDs.
+
+Generative AI was then used to create tables to contain information about medications, diseases, prescriptions, lab results and appointments.  This information was linked with those of the doctors, hospitals and patient information, so that, for example, doctor specialisms were related to doctor IDs.
 
 
 ## Files in the Repository
