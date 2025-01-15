@@ -1,0 +1,3 @@
+SELECT DISTINCT patients.patient_id, patients.patient_name, diseases.disease_name, prescriptions.medicine_name
+FROM (patients INNER JOIN prescriptions ON patients.patient_name = prescriptions.patient_name) INNER JOIN diseases ON prescriptions.medicine_type = diseases.medicine_type
+WHERE diseases.disease_name = "Migraine";
