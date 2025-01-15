@@ -1,0 +1,5 @@
+SELECT hospitals.hospital_name AS accredited_hospital, hospitals.type AS hospital_type, hospitals.accreditation_year, doctors.doctor_name AS associated_doctor
+FROM hospitals LEFT JOIN doctors ON hospitals.hospital_name = doctors.hospital_name
+WHERE hospitals.type = 'Teaching' 
+    AND hospitals.accreditation_year BETWEEN 2015 AND 2024
+ORDER BY hospitals.hospital_name, doctors.doctor_name;
