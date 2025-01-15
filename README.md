@@ -72,7 +72,7 @@ Ensure you have the following installed:
 
 ### Steps to Execute:
 1. Clone the repository (in Terminal)
-     git clone  https://github.com/jennalyse/group-5-hospital/tree/main.git
+     git clone https://github.com/jennalyse/group-5-hospital.git
 3. Set up database
      run MySQL with local_infile enabled (or enable it globally within MySQL)
         mysql --local-infile=1 -u root
