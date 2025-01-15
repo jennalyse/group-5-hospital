@@ -1,0 +1,4 @@
+SELECT prescriptions.medicine_name, doctors.doctor_name, patients.patient_name, hospitals.hospital_name
+FROM ((prescriptions INNER JOIN doctors ON prescriptions.doctor_name = doctors.doctor_name) INNER JOIN patients ON prescriptions.patient_name = patients.patient_name) INNER JOIN hospitals ON doctors.hospital_name = hospitals.hospital_name
+WHERE hospitals.hospital_name = 'Glasgow Royal Infirmary'
+ORDER BY prescriptions.medicine_name;
