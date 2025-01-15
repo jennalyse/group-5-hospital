@@ -1,0 +1,3 @@
+SELECT prescription_date, medicine_name, medicine_type, patient_name, doctor_name
+FROM prescriptions
+ORDER BY patient_name;
