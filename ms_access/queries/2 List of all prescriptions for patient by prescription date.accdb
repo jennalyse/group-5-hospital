@@ -1,0 +1,4 @@
+SELECT prescription_date, medicine_name, medicine_type, patient_name, doctor_name
+FROM prescriptions
+WHERE patient_name = "Bernard Williams"
+ORDER BY prescription_date;
