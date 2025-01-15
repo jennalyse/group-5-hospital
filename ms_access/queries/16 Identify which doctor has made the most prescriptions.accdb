@@ -1,0 +1,15 @@
+SELECT doctor_name, COUNT(*) AS total_prescriptions
+FROM prescriptions
+GROUP BY doctor_name
+HAVING COUNT(*) = (
+        SELECT MAX(total_prescriptions)
+        FROM (
+            SELECT 
+                doctor_name, 
+                COUNT(*) AS total_prescriptions
+            FROM 
+                prescriptions
+            GROUP BY 
+                doctor_name
+        ) AS subquery
+    );
