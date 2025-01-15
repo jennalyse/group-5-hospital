@@ -1,0 +1,3 @@
+SELECT lab_results.lab_date, lab_results.lab_test, lab_results.lab_result, lab_results.patient_name, lab_results.doctor_name
+FROM lab_results INNER JOIN patients ON lab_results.patient_name = patients.first_name & " " & patients.second_name
+WHERE DATEDIFF('yyyy', patients.date_of_birth, Date()) > 60;
