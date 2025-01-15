@@ -1,0 +1,3 @@
+SELECT doctors.doctor_name, diseases.disease_name
+FROM doctors INNER JOIN diseases ON doctors.first_name & " " & doctors.second_name = diseases.doctor_name
+WHERE diseases.disease_name = "Psoriasis";
