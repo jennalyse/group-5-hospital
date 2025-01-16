@@ -1,10 +1,10 @@
 -- Drop procedure if it already exists
-DROP PROCEDURE IF EXISTS NewCustomerWithDoctor;
+DROP PROCEDURE IF EXISTS NewPatientWithDoctor;
 
 -- Set DELIMITER to // to define the procedure
 DELIMITER //
 
-CREATE PROCEDURE NewCustomerWithDoctor(
+CREATE PROCEDURE NewPatientWithDoctor(
     IN input_first_name VARCHAR(50),
     IN input_second_name VARCHAR(50),
     IN input_address VARCHAR(255),
@@ -26,7 +26,7 @@ BEGIN
         VALUES (input_first_name, input_second_name, input_address, input_date_of_birth, input_doctor_id);
         
         -- Return success message
-        SELECT 'New customer has been added and assigned a doctor.' AS message;
+        SELECT 'New patient has been added and assigned a doctor.' AS message;
     ELSE
         -- If the patient already exists, return an error message
         SELECT 'Patient already exists in the database.' AS message;
@@ -38,7 +38,7 @@ DELIMITER ;
 
 -- Example calls to test the procedure:
 -- Correct call with a doctor ID
-CALL NewCustomerWithDoctor('Bryan', 'Jones', '34-124 Beech Boulevard,Lewes Rd, Haywards Heath RH16 4QU', '1955-07-24', 87);
+CALL NewPatientWithDoctor('Bryan', 'Jones', '34-124 Beech Boulevard,Lewes Rd, Haywards Heath RH16 4QU', '1955-07-24', 87);
 
 -- Incorrect call (already existing patient)
-CALL NewCustomerWithDoctor('Stephen', 'Jones', '221B Baker Street, London', '1983-04-13', 1);
+CALL NewPatientWithDoctor('Stephen', 'Jones', '221B Baker Street, London', '1983-04-13', 1);
