@@ -1,5 +1,3 @@
--- 1. Print a list of all doctors at a particular hospital
-
 -- Drop to ensure latest version is created and used
 DROP PROCEDURE IF EXISTS ListDoctorsByHospital;
 
