@@ -26,3 +26,8 @@ END //
 
 -- Reset DELIMITER to ;
 DELIMITER ;
+
+
+
+-- Example calls to test the procedure...
+CALL ListDoctorsInTeachingHospitals();
