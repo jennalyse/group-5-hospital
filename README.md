@@ -35,7 +35,7 @@ The doctors table was created using information from the hospitals table to enab
 
 Generative AI was then used to create tables to contain information about medications, diseases, prescriptions, lab results and appointments.  This information was linked with those of the doctors, hospitals and patient information, so that, for example, doctor specialisms were related to doctor IDs.
 
-Python was used ...
+Python was also used for generating the tables of data, using generative AI to generate the code.  The code used for the python programming is provided in the (#Python_scripts_folder).  The scripts used inputs of data such as the original hospital file to map information onto columns as required for the later tables.
 
 
 ## Files in the Repository
