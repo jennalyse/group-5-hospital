@@ -5,7 +5,7 @@ This repository contains the Group 5 hospital database project, developed in MyS
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
-2. [Generation of Data](#generation-of-data]
+2. [Generation of Data](#generation-of-data)
 3. [Files in the Repository](#files-in-the-repository)
 4. [How to Set Up the Database](#how-to-set-up-the-database)
    - [Prerequisites](#prerequisites)
