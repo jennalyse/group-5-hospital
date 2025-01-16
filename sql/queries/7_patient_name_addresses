@@ -31,12 +31,12 @@ BEGIN
       -- Use d to indicate doctors table, p to indicate patients table and h to indicate hospitals table
       
       SELECT 
-        p.first_name AS PatientFirstName
-        p.second_name AS PatientSecondName
-        p.address AS PatientAddress
-        d.doctor_id AS DoctorID
-        d.first_name AS DoctorFirstName
-        d.second_name AS DoctorDSecondName        
+        p.first_name AS PatientFirstName,
+        p.second_name AS PatientSecondName,
+        p.address AS PatientAddress,
+        d.doctor_id AS DoctorID,
+        d.first_name AS DoctorFirstName,
+        d.second_name AS DoctorDSecondName,        
         
       FROM 
         PATIENTS p
