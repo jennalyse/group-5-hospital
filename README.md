@@ -79,7 +79,7 @@ The database contains the following main tables:
 3. **Patients**: Patient details, linked to doctors and hospitals - 600 patients.
 4. **Appointments**: Scheduled appointments with doctors - 3453 appointments.
 5. **Medications**: Drug details and types - 50 medications.
-6. **Lab Results**: Results of tests conducted on patients.
+6. **Lab Results**: Results of tests conducted on patients - 842 lab results.
 7. **Diseases**: Illnesses and their treatments - 56 diseases.
 
 --- 
