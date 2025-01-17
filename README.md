@@ -69,13 +69,6 @@ Found within `docs/planning`:
 ### 5. MS Access
 - **Queries**: Amended MySQL queries for MS Access.
 
-19 queries are provided in the ms_access/queries folder, and to use them, copy them each into the query view on Access and then run the code.  For example, in the case of query 5:
-
-INSERT INTO patients ( patient_name, address, doctor_name )
-VALUES ('Jane Smith', '1 Close', 'Alice Berry');
-
-When this code is run, the additional person will be added to the patients database.  This can be viewed on the table of patients to confirm that the person has been added to the list, with an allocated Doctor name linked with them.
-
 ---
 
 ## Database Schema
@@ -138,6 +131,12 @@ The database contains the following main tables:
 Repeat for all 19.
 6. Run MS Access queries:
    Open .accdb files in ms_access/queries.
+   19 queries are provided in the ms_access/queries folder, and to use them, copy them each into the query view on Access and then run the code.  For example, in the case of query 5:
+
+INSERT INTO patients ( patient_name, address, doctor_name )
+VALUES ('Jane Smith', '1 Close', 'Alice Berry');
+
+When this code is run, the additional person will be added to the patients database.  This can be viewed on the table of patients to confirm that the person has been added to the list, with an allocated Doctor name linked with them.
 
 
 ## Generation of Data
